@@ -76,7 +76,7 @@ Patterns - reusable parts of our design
 -------------------------------- */
 .overflow-hidden {
   overflow: hidden;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,0.3);
 }
 
 /* -------------------------------- 

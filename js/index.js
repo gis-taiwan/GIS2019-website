@@ -1,3 +1,33 @@
+(function ($) {
+  "use strict";
+    
+  // Navigation active state on scroll
+  var nav_sections = $('section');
+  var main_nav = $('.nav-menu, #mobile-nav');
+  var main_nav_height = $('#header').outerHeight();
+
+  $(window).on('scroll', function () {
+    var cur_pos = $(this).scrollTop();
+  
+    nav_sections.each(function() {
+      var top = $(this).offset().top - main_nav_height,
+          bottom = top + $(this).outerHeight();
+  
+      if (cur_pos >= top && cur_pos <= bottom) {
+          if($(this).is($('#contact'))){
+              $('#here').removeClass('menu-active menu-item-active');
+              $('#contact_nav').addClass('menu-active menu-item-active');
+          }
+          else{
+              $('#contact_nav').removeClass('menu-active menu-item-active');
+              $('#here').addClass('menu-active menu-item-active');
+          }
+      }
+    });
+  });
+})(jQuery);
+
+
 /*
 eventStart holds final date
 GMT-0800 = Pacific Standard Time
@@ -6,7 +36,7 @@ GMT-0600 = Central Standard Time
 GMT-0500 = Eastern Standard Time
 plus 1 for Daylight Savings
 */
-var eventStart = new Date(Date.parse('07/01/2019 8:00 am'));
+var eventStart = new Date(Date.parse('07/08/2019 8:00 am'));
 /* 
 timeToEvent = function name
 eventStart = countdown date 
