@@ -279,7 +279,7 @@ Main content
     transition: transform 0.3s 0.1s;
   }
   .cd-item b {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: translateY(20px);
     -moz-transform: translateY(20px);
     -ms-transform: translateY(20px);
