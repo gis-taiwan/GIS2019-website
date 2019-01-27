@@ -68,11 +68,11 @@ label {
 }
 .mylabel {
   background: #fff;
-  box-shadow: inset 0 3px #0CE;
+  box-shadow: inset 0 3px rgba(89,182,171,1);/*0CE;*/
 }
 
 .myfas {
-  color: #0CE;
+  color: rgba(89,182,171,1)/*#0CE*/;
 }
 
 
