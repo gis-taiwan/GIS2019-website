@@ -83,6 +83,40 @@
         margin-top: -0.5em ;
         font-size: 0.75em ;
     }
+
+    #intro .carousel-p{
+        width: 40vw;
+    }
+    /*
+    .btn-primary{
+        color: #fff;
+        background-color: rgba(46, 58, 130, 1);
+        border-color: rgba(46, 58, 130, 1);
+    }
+    .btn-primary-op{
+        color: #fff;
+        background-color: rgba(46, 58, 130, 0.4);
+        border-color: rgba(46, 58, 130, 0.4);
+    }
+    */
+    @media  screen and (min-width: 768px) {
+        #intro .carousel-container{
+            margin-left: 4vw;
+            margin-right: 4vw;
+        }
+    }
+
+    /*
+    .carousel-padding{
+        padding-top: 50vh;
+    }
+    @media  screen and (max-width: 768px) {
+        .carousel-padding{
+            padding-top: 25vh;
+        }
+    }
+    */
+    
     </style>
 
     <body>
@@ -98,21 +132,21 @@
                     <nav id="nav-menu-container">
                         <ul class="nav-menu navbar-loc">
                             <li id="here" class="menu-active"><a href="#intro">Home</a></li>
-                            <li class="menu-has-children"><a href="">About</a>
+                            <li class="menu-has-children"><a href="./organizing-committee.html">About</a>
                                 <ul>
-                                    <li><a href="#">About Us/What We Do</a></li>
+                                    <li><a href="./coming-soon.html">About Us/What We Do</a></li>
                                     <li><a href="./organizing-committee.html">Organizing Committee</a></li>
-                                    <li><a href="#">Advisory Panel</a></li>
-                                    <li><a href="#">Partnership</a></li>
-                                    <li><a href="#">Past Conferences</a></li>
+                                    <li><a href="./coming-soon.html">Advisory Panel</a></li>
+                                    <li><a href="./coming-soon.html">Partnership</a></li>
+                                    <li><a href="./coming-soon.html">Past Conferences</a></li>
                                 </ul>
                             </li> 
                             <li class="menu-has-children"><a href="./gis2019.html">GIS2019</a>
                                 <ul>
                                     <li><a href="./gis2019.html#annual_themes">Annual Theme</a></li>
-                                    <li><a href="#">Agenda</a></li>
+                                    <li><a href="./coming-soon.html">Agenda</a></li>
                                     <li><a href="./gis2019.html#academic_topics">Academic Topic</a></li>
-                                    <li><a href="#">Action Project</a></li>
+                                    <li><a href="./coming-soon.html">Action Project</a></li>
                                 </ul>
                             </li>
                             <li class="menu-has-children"><a href="./register.html">Register</a>
@@ -124,7 +158,7 @@
                                     <li><a  href="./register.html#tab5">Field Trip</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#sponsorship">Sponsorship</a></li>
+                            <li><a href="./coming-coon.html">Sponsorship</a></li>
                             <li><a href="./faq.html">FAQ</a></li>
                             <li id="contact_nav"><a href="#contact">Contact</a></li>
                         </ul>
@@ -145,60 +179,70 @@
 
                                 <div class="carousel-item active">
                                     <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
-                                    <div class="carousel-container pr-sm-5 mr-sm-5">
-                                            <div class="carousel-content text-sm-right text-center ">
-                                                <h2>Shifts and Shocks</h2>
-                                                <p class="mr-auto ml-auto mr-sm-1 d-none d-sm-block">This year’s theme, Shifts and Shocks, precisely states the issues people are facing currently. No matter it’s the dynamic in generation, power or industry, they’re all crucial subjects the we must be aware of. GIS Taiwan 2019 offers a platform for the communication of in­dustry, official and academics, which allows students to broaden their horizons.</p>
-                                                <a class="btn btn-outline-success btn-lg mr-4" href="#contact">Contact us</a>
-                                                <a class="btn btn-success btn-lg " href="">Register</a>
+                                    <div class="carousel-container d-flex justify-content-md-end justify-content-center">
+                                            <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
+                                                <h2 class="mt-auto">Shifts and Shocks</h2>
+                                                <p class="carousel-p d-none d-md-block">This year’s theme, Shifts and Shocks, precisely states the issues people are facing currently. No matter it’s the dynamic in generation, power or industry, they’re all crucial subjects the we must be aware of. GIS Taiwan 2019 offers a platform for the communication of in­dustry, official and academics, which allows students to broaden their horizons.</p>
+                                                <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
+                                                    <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact">Contact us</a>
+                                                    <a class="btn btn-primary btn-lg ml-sm-4" href="./register.html">&nbsp Register &nbsp </a>
+                                                </div>
                                             </div>
                                     </div>
                                 </div>
 
                                 <div class="carousel-item">
                                     <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
-                                    <div class="carousel-container pr-sm-5 mr-sm-5">
-                                            <div class="carousel-content text-sm-right text-center">
-                                                <h2 >Shifts and Shocks</h2>
-                                                <p class="mr-auto ml-auto mr-sm-1">This year’s theme, Shifts and Shocks, precisely states the issues people are facing currently. No matter it’s the dynamic in generation, power or industry, they’re all crucial subjects the we must be aware of. GIS Taiwan 2019 offers a platform for the communication of in­dustry, official and academics, which allows students to broaden their horizons.</p>
-                                                <a class="btn btn-outline-success btn-lg mr-4" href="#contact">Contact us</a>
-                                                <a class="btn btn-success btn-lg " href="">Register</a>
+                                    <div class="carousel-container d-flex justify-content-md-end justify-content-center">
+                                            <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
+                                                <h2 class="mt-auto">Shifts and Shocks</h2>
+                                                <p class="carousel-p d-none d-md-block">This year’s theme, Shifts and Shocks, precisely states the issues people are facing currently. No matter it’s the dynamic in generation, power or industry, they’re all crucial subjects the we must be aware of. GIS Taiwan 2019 offers a platform for the communication of in­dustry, official and academics, which allows students to broaden their horizons.</p>
+                                                <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
+                                                    <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact">Contact us</a>
+                                                    <a class="btn btn-primary btn-lg ml-sm-4" href="./register.html">&nbsp Register &nbsp </a>
+                                                </div>
                                             </div>
                                     </div>
                                 </div>
 
                                 <div class="carousel-item">
                                     <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
-                                    <div class="carousel-container pr-sm-5 mr-sm-5">
-                                            <div class="carousel-content text-sm-right text-center">
-                                                <h2 >Shifts and Shocks</h2>
-                                                <p class="mr-auto ml-auto mr-sm-1">This year’s theme, Shifts and Shocks, precisely states the issues people are facing currently. No matter it’s the dynamic in generation, power or industry, they’re all crucial subjects the we must be aware of. GIS Taiwan 2019 offers a platform for the communication of in­dustry, official and academics, which allows students to broaden their horizons.</p>
-                                                <a class="btn btn-outline-success btn-lg mr-4" href="#contact">Contact us</a>
-                                                <a class="btn btn-success btn-lg " href="">Register</a>
+                                    <div class="carousel-container d-flex justify-content-md-end justify-content-center">
+                                            <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
+                                                <h2 class="mt-auto">Shifts and Shocks</h2>
+                                                <p class="carousel-p d-none d-md-block">This year’s theme, Shifts and Shocks, precisely states the issues people are facing currently. No matter it’s the dynamic in generation, power or industry, they’re all crucial subjects the we must be aware of. GIS Taiwan 2019 offers a platform for the communication of in­dustry, official and academics, which allows students to broaden their horizons.</p>
+                                                <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
+                                                    <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact">Contact us</a>
+                                                    <a class="btn btn-primary btn-lg ml-sm-4" href="./register.html">&nbsp Register &nbsp </a>
+                                                </div>
                                             </div>
                                     </div>
                                 </div>
 
                                 <div class="carousel-item">
                                     <div class="carousel-background"><img src="img/intro-carousel/4.JPG" alt=""></div>
-                                    <div class="carousel-container pr-sm-5 mr-sm-5">
-                                            <div class="carousel-content text-sm-right text-center">
-                                                <h2 >Shifts and Shocks</h2>
-                                                <p class="mr-auto ml-auto mr-sm-1">This year’s theme, Shifts and Shocks, precisely states the issues people are facing currently. No matter it’s the dynamic in generation, power or industry, they’re all crucial subjects the we must be aware of. GIS Taiwan 2019 offers a platform for the communication of in­dustry, official and academics, which allows students to broaden their horizons.</p>
-                                                <a class="btn btn-outline-success btn-lg mr-4" href="#contact">Contact us</a>
-                                                <a class="btn btn-success btn-lg " href="">Register</a>
+                                    <div class="carousel-container d-flex justify-content-md-end justify-content-center">
+                                            <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
+                                                <h2 class="mt-auto">Shifts and Shocks</h2>
+                                                <p class="carousel-p d-none d-md-block">This year’s theme, Shifts and Shocks, precisely states the issues people are facing currently. No matter it’s the dynamic in generation, power or industry, they’re all crucial subjects the we must be aware of. GIS Taiwan 2019 offers a platform for the communication of in­dustry, official and academics, which allows students to broaden their horizons.</p>
+                                                <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
+                                                    <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact">Contact us</a>
+                                                    <a class="btn btn-primary btn-lg ml-sm-4" href="./register.html">&nbsp Register &nbsp </a>
+                                                </div>
                                             </div>
                                     </div>
                                 </div>
 
                                 <div class="carousel-item">
                                     <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
-                                    <div class="carousel-container pr-sm-5 mr-sm-5">
-                                            <div class="carousel-content text-sm-right text-center">
-                                                <h2 >Shifts and Shocks</h2>
-                                                <p class="mr-auto ml-auto mr-sm-1">This year’s theme, Shifts and Shocks, precisely states the issues people are facing currently. No matter it’s the dynamic in generation, power or industry, they’re all crucial subjects the we must be aware of. GIS Taiwan 2019 offers a platform for the communication of in­dustry, official and academics, which allows students to broaden their horizons.</p>
-                                                <a class="btn btn-outline-success btn-lg mr-4" href="#contact">Contact us</a>
-                                                <a class="btn btn-success btn-lg " href="">Register</a>
+                                    <div class="carousel-container d-flex justify-content-md-end justify-content-center">
+                                            <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
+                                                <h2 class="mt-auto">Shifts and Shocks</h2>
+                                                <p class="carousel-p d-none d-md-block">This year’s theme, Shifts and Shocks, precisely states the issues people are facing currently. No matter it’s the dynamic in generation, power or industry, they’re all crucial subjects the we must be aware of. GIS Taiwan 2019 offers a platform for the communication of in­dustry, official and academics, which allows students to broaden their horizons.</p>
+                                                <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
+                                                    <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact">Contact us</a>
+                                                    <a class="btn btn-primary btn-lg ml-sm-4" href="./register.html">&nbsp Register &nbsp </a>
+                                                </div>
                                             </div>
                                     </div>
                                 </div>
@@ -277,9 +321,9 @@
                                                 <img src="img/keynote-speech.JPG" alt="" class="img-fluid">
                                                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                                             </div>
-                                            <h2 class="title"><a href="#">Keynote speech</a></h2>
+                                            <h2 class="title">Keynote Speech</h2>
                                             <p>
-                                            Professionals and industrial experts will enlighten delegates on the Academic Topics from various perspectives
+                                            Themes of the speeches all regard having proactive thinking and developmental possibilities. From the four speakers of different fields, they will combine creative notions and real-life experiences to inspire delegates. 
                                             </p>
                                         </div>
                                     </div>
@@ -290,9 +334,9 @@
                                                 <img src="img/workshop.jpg" alt="" class="img-fluid">
                                                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
                                             </div>
-                                            <h2 class="title"><a href="#">Workshop</a></h2>
+                                            <h2 class="title">Workshop</h2>
                                             <p>
-                                            Interactive activities, including group debates and case studies, aim for enhancing in-depth comprehension of delegates
+                                            After providing delegates with different perspectives on the keynote speech topics, we then invite the speakers to lead in-depth workshops. This encourages delegates to engage in deeper thinking and to incorporate individual strategic analysis or group proposals that can be applied to practical usages.
                                             </p>
                                         </div>
                                     </div>
@@ -303,9 +347,9 @@
                                                 <img src="img/ap.JPG" alt="" class="img-fluid">
                                                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                                             </div>
-                                            <h2 class="title"><a href="#">Action Project</a></h2>
+                                            <h2 class="title">Action Project Competition</h2>
                                             <p>
-                                            Delegates will partner with teammates worldwide, outline their thoughts with the aid of mentors and shine in the competition
+                                            Delegates will apply professional knowledge learned from the academic topics on related fields. They will then discuss among groups, and with the help from industrial mentors, draft up feasible action plans and compete.
                                             </p>
                                         </div>
                                     </div>
@@ -327,7 +371,7 @@
 
                                     <div class="row">
                                        <div class="col-md-6 mt-4 pt-1">
-                                           <div class="ml-3 text-md-left text-center">
+                                           <div class="ml-md-3 text-md-left text-center">
                                                <h2>Shifts and Shocks</h2>
                                                <h2>Time</h2>
                                                <p>July 8th, 2019 - July 12th, 2019</p>
@@ -352,8 +396,7 @@
                                                        <div class="timeline-content right mr-auto">
                                                            <h2>Early Bird Registration Starts</h2>
                                                            <p>
-                                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                           Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                                                           
                                                            </p>
                                                            <span class="time-stamp">11th, February, 2019</span>
                                                        </div>
@@ -366,7 +409,8 @@
                                                        <div class="timeline-content right">
                                                            <h2>Regular Registration Starts</h2>
                                                            <p>
-                                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                                                           </p>
                                                            <span class="time-stamp">1st, April, 2019</span>
                                                        </div>
                                                    </div>
@@ -379,7 +423,7 @@
                                                        <div class="timeline-content right">
                                                            <h2>End of Regular Registration</h2>
                                                            <p>
-                                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+
                                                            </p>
                                                            <span class="time-stamp">12th, May, 2019</span>
                                                        </div>
@@ -392,7 +436,7 @@
                                                        <div class="timeline-content right">
                                                            <h2>High School Adimission List Release</h2>
                                                            <p>
-                                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+
                                                            </p>
                                                            <span class="time-stamp">14th, May, 2019</span>
                                                        </div>
@@ -405,7 +449,7 @@
                                                        <div class="timeline-content right">
                                                            <h2>All Adimission List Release</h2>
                                                            <p>
-                                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+
                                                            </p>
                                                            <span class="time-stamp">11th, June, 2019</span>
                                                        </div>
@@ -438,7 +482,7 @@
 
                                                 <header class="section-header">
                                                     <h3>Facts</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.</p>
+                                                    <p>Gathering over 300 people from more than 20 nations to discuss the issues people are facing currently.</p>
                                                 </header>
 
                                                 <div class="row counters">
@@ -506,7 +550,7 @@
                                                                         </div>
 
                                                                     </div>
-
+<!--
                                                                     <div class="form">
                                                                         <div id="sendmessage">Your message has been sent. Thank you!</div>
                                                                         <div id="errormessage"></div>
@@ -532,6 +576,7 @@
                                                                             <div class="text-center"><button type="submit">Send Message</button></div>
                                                                         </form>
                                                                     </div>
+-->
 
                                                                 </div>
                                                             </section><!-- #contact -->
@@ -562,9 +607,9 @@
                                         <strong>Email:</strong> gis-taiwan@gis-taiwan.ntu.edu.tw<br>
                                         </p>
                                         <div class="social-links">
-                                            <a href="https://www.youtube.com/user/GISTaiwan" class="youtube"><i class="fa fa-youtube"></i></a>
-                                            <a href="https://www.facebook.com/GISTaiwan/" class="facebook"><i class="fa fa-facebook"></i></a>
-                                            <a href="https://www.instagram.com/gistaiwan/" class="instagram"><i class="fa fa-instagram"></i></a>
+                                            <a href="https://www.youtube.com/user/GISTaiwan" class="youtube" target="_blank" ><i class="fa fa-youtube"></i></a>
+                                            <a href="https://www.facebook.com/GISTaiwan/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://www.instagram.com/gistaiwan/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
                                         </div>
 
                                     </div>

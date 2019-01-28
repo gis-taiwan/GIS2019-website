@@ -50,14 +50,15 @@ h3 {
 .accordion a:hover,
 .accordion a:hover::after {
   cursor: pointer;
-  color: #03b5d2; }
+  color: rgba(89,182,171,1);/*#03b5d2;*/
+  }
 
 .accordion a:hover::after {
-  border: 1px solid #03b5d2; }
+  border: 1px solid rgba(89,182,171,1); }
 
 .accordion a.active {
-  color: #03b5d2;
-  border-bottom: 1px solid #03b5d2; }
+  color: rgba(89,182,171,1);
+  border-bottom: 1px solid rgba(89,182,171,1); }
 
 .accordion a::after {
   font-family: 'Ionicons';
@@ -79,8 +80,8 @@ h3 {
 .accordion a.active::after {
   font-family: 'Ionicons';
   content: '\f209';
-  color: #03b5d2;
-  border: 1px solid #03b5d2; }
+  color: rgba(89,182,171,1);
+  border: 1px solid rgba(89,182,171,1); }
 
 .accordion .content {
   opacity: 0;
