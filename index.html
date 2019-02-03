@@ -566,7 +566,7 @@
                                                                     <div class="form">
                                                                         <div id="sendmessage">Your message has been sent. Thank you!</div>
                                                                         <div id="errormessage"></div>
-                                                                        <form name="contact-us" action="" method="post" role="form" class="contactForm">
+                                                                        <form name="contact-us" method="post" role="form" class="contactForm"><!--remove action=""-->
                                                                             <div class="form-row">
                                                                                 <div class="form-group col-md-6">
                                                                                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -669,7 +669,6 @@
                     <script src="lib/lightbox/js/lightbox.min.js"></script>
                     <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
                     <!-- Contact Form JavaScript File -->
-                    <!--<script src="contactform/contactform.js"></script>-->
 
                     <!-- Template Main Javascript File -->
                     <script src="js/main.js"></script>
@@ -677,17 +676,6 @@
                     <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
                     <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
                     <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-                    <script>
-                        const scriptURL = 'https://script.google.com/macros/s/AKfycbwWqo5vPXDe1TVGrSrhptU64m8d4tC0jG9m-hVMVlx5y_RztQ0/exec'
-                        const form = document.forms['contact-us']
-
-                        form.addEventListener('submit', e => {
-                          e.preventDefault()
-                          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                            .then(response => console.log('Success!', response))
-                            .catch(error => console.error('Error!', error.message))
-                        })
-                    </script>
-
+                    <script src="contactform/contactform.js"></script>
     </body>
 </html>
