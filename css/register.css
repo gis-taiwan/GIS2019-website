@@ -147,3 +147,51 @@ label .fas {
 .link {
   text-align:center;
 }
+
+/* registration guide */
+.a {
+  left: 10px;
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari 3-8 */
+  transform: rotate(90deg);
+}
+
+.process {
+  width: 100%;
+  margin: 0px 0px;
+  cursor: default;
+}
+
+.process-items {
+  margin: 0 0 10px;
+  padding: 0;
+  list-style-type: none;
+  color: #585858;
+  font-size: 18px;
+  text-align: center;
+}
+.process-items div {
+  vertical-align: bottom;
+  padding: 0 0.5em;
+  -webkit-transform: scale(0.8) translateY(30px);
+          transform: scale(0.8) translateY(30px);
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.process-items div.active {
+  -webkit-transform: scale(1) translateY(0);
+          transform: scale(1) translateY(0);
+}
+.process-items em {
+  display: block;
+  margin-top: 0.5em;
+}
+.process-items p {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+

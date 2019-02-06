@@ -43,6 +43,20 @@
             gtag('js', new Date());
 
             gtag('config', 'UA-129743888-2');
+            function show(index){
+                var newtabid = "#tab" + index;
+                var oldtabid = "#tab" + showindex;
+                //console.log(oldtabid);
+                //console.log(newtabid);
+                //console.log(oldtabid + " + label");
+                $(oldtabid + " + label").removeClass("mylabel");
+                $(oldtabid + " + label .fas").removeClass("myfas");
+                $("#content" + showindex).removeClass("mycontent");
+                $(newtabid + "+ label").addClass("mylabel");
+                $(newtabid + "+ label .fas").addClass("myfas");
+                $("#content"+index).addClass("mycontent");
+                showindex = index;
+            }
         </script>
 
 
@@ -57,7 +71,7 @@
 }
 @media only screen and (min-width: 900px) {
 .tab-content{
-    width: 50vw;
+    width: 55vw;
 }
 
 </style>
@@ -212,8 +226,35 @@
 
                                 </section>
 
-                                <section id="content3" class="tab-content mx-auto">
+                                <section id="content3" class="tab-content mx-auto ">
                                     <h3>Basis of Selection</h3>
+                                    <div class="container-fluid process mb-5">
+                                        <div class="row process-items justify-content-center">
+                                            <div class="active col-2 s1" id="0"><p>Step 1</p>
+                                                <em>Complete the essay questions</em>
+                                            </div>
+                                            <div class="col-2 s2" id="1"><p>Step 2</p>
+                                                <em>Complete the registration form as below</em>
+                                            </div>
+                                            <div class="col-3 s3" id="2"><p>Step 3</p>
+                                                <em>We will review your answers to the essay questions. </em>
+                                            </div>
+                                            <div class="col-3 s4" id="3"><p>Step 4</p>
+                                                <em>If you are qualified, we will send you a confirmation letter within 1 week.</em>
+                                            </div>
+                                            <div class="col-2 s5" id="4"><p>Step 5</p>
+                                                <em>Registration completed</em>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <canvas id="canvas" height="55"></canvas><!--style="width:100%"-->
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
                                     <p>We expect a thought-provoking essay in this year’s topic Shifts and Shocks. The essay must meet the following criteria:</p>
                                     <table class="table table-hover">
                                         <tbody>
