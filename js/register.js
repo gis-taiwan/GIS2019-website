@@ -37,7 +37,6 @@ $( document ).ready(function() {
         //console.log(idx);
         show(idx);
     });
-    //
     // Start of registration guide
     var test = $('.s1,.s2,.s3,.s4,.s5');
     var canvas = document.getElementById("canvas");
@@ -138,21 +137,18 @@ $( document ).ready(function() {
             last = $(this);
         }
     });
-    var CANVAS_WIDTH = $('#content1').width() - 30;
-    canvas.width = CANVAS_WIDTH;
-    //console.log('init',canvas.width);
-
-
-    var a = CANVAS_WIDTH / 12 * 2;
-    var b = CANVAS_WIDTH / 12 * 3;
-    create(a*0,a,0);
-    create(a*1,a,1);
-    create(a*2,b,2);
-    create(a*2 + b,b,3);
-    create(a*2 + 2*b,a,4);
-
-    $(window).resize(function(){
-        CANVAS_WIDTH = $('#content1').width() - 30;
+    var CANVAS_WIDTH = 0;
+    var content1 = $('#content1');
+    var X_PADDING = $('.setwidth').innerWidth() - $('.setwidth').width();
+    function init(){
+        CANVAS_WIDTH = content1.width() - X_PADDING;// canvas is in container-fluid, so need to minus the padding
+        X_PADDING = $('.setwidth').innerWidth() - $('.setwidth').width();
+        //console.log(X_PADDING);
+        //console.log(CANVAS_WIDTH);
+        //console.log(content1.width());
+        $('.setwidth').outerWidth(CANVAS_WIDTH + X_PADDING); // because outerWidth contain the padding
+        //$('.container-fluid').outerWidth(CANVAS_WIDTH + X_PADDING);
+        //console.log($('#mobile-step').width());
         canvas.width = CANVAS_WIDTH;
         //console.log('resize',canvas.width);
 
@@ -164,6 +160,58 @@ $( document ).ready(function() {
         create(a*2 + b,b,3);
         create(a*2 + 2*b,a,4);
 
+    }
+
+/*mobile slick text slider*/
+/*Hi everyone this my top viewed pen :O 
+i have ever created :) hope that this pen help
+you a lot in your project testimonial section.
+connect with me if u want on facebook :)
+
+fb.com/shabab.sourav
+*/
+
+/*
+practice carosal concept using slick slider
+for working perfectly add slick.js and slick.css 
+file to your project folder
+*/
+
+/*------------------------------------
+	Testimonial Slick Carousel as Nav
+--------------------------------------*/
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        centerMode: true,
+        focusOnSelect: true,
+        centerPadding: '10px',
+        infinite: true,
+        responsive: [
+            {
+              breakpoint: 450,
+              settings: {
+                dots: false,
+                slidesToShow: 3,  
+                centerPadding: '0px',
+                }
+            },
+            {
+              breakpoint: 420,
+              settings: {
+                autoplay: true,
+                dots: false,
+                slidesToShow: 1,
+                centerMode: false,
+                }
+            }
+        ]
+    });
+    init();
+    $(window).resize(function(){
+        init();
     });
 
     var loop = function() {
@@ -179,14 +227,6 @@ $( document ).ready(function() {
         window.requestAnimationFrame(loop);
     };
     loop(); // End of registration guide
-
-
-
-    
 }); 
 
 
-$(window).load(function() {
-
-    
-});
