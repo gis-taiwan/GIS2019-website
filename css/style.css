@@ -1179,12 +1179,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (min-width: 992px) {
-  #testimonials .testimonial-item p {
-    width: 80%;
-  }
-}
-
 @media (min-width: 1024px) {
   #header #logo {
     padding-left: 60px;
@@ -1207,6 +1201,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 900px) {
   .back-to-top {
     bottom: 15px;
+  }
+  #logo{
+      padding-top:5px;
   }
 
   #header #logo h1 {
