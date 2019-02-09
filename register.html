@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
         <!-- Bootstrap CSS File -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Libraries CSS Files -->
@@ -43,6 +44,20 @@
             gtag('js', new Date());
 
             gtag('config', 'UA-129743888-2');
+            function show(index){
+                var newtabid = "#tab" + index;
+                var oldtabid = "#tab" + showindex;
+                //console.log(oldtabid);
+                //console.log(newtabid);
+                //console.log(oldtabid + " + label");
+                $(oldtabid + " + label").removeClass("mylabel");
+                $(oldtabid + " + label .fas").removeClass("myfas");
+                $("#content" + showindex).removeClass("mycontent");
+                $(newtabid + "+ label").addClass("mylabel");
+                $(newtabid + "+ label .fas").addClass("myfas");
+                $("#content"+index).addClass("mycontent");
+                showindex = index;
+            }
         </script>
 
 
@@ -57,7 +72,7 @@
 }
 @media only screen and (min-width: 900px) {
 .tab-content{
-    width: 50vw;
+    width: 55vw;
 }
 
 </style>
@@ -113,24 +128,25 @@
 
                 <main id="main" >
                 <div class="topimage bg-cover" style="background-image: url(img/intro-carousel/1.jpg)"></div>
-                    <div class="container" id="registertab">
-                        <div class="tab_container">
-                            <div class="row">
-                                <input id="tab1" type="radio" name="tabs" checked>
-                                <label for="tab1"><i class="fas fa-pen-nib"></i><br><span>Registration</span><br></label>
+                <div class="container" id="registertab">
+                    <div class="tab_container">
+                        <div class="row">
+                            <input id="tab1" type="radio" name="tabs" checked>
+                            <label for="tab1"><i class="fas fa-pen-nib"></i><br><span>Registration</span><br></label>
 
-                                <input id="tab2" type="radio" name="tabs">
-                                <label for="tab2"><i class="fas fa-school"></i><br><span>High School Program</span></label>
+                            <input id="tab2" type="radio" name="tabs">
+                            <label for="tab2"><i class="fas fa-school"></i><br><span>High School Program</span></label>
 
-                                <input id="tab3" type="radio" name="tabs">
-                                <label for="tab3"><i class="fas fa-user-alt"></i><br><span>Basis of Selection</span></label>
+                            <input id="tab3" type="radio" name="tabs">
+                            <label for="tab3"><i class="fas fa-user-alt"></i><br><span>Basis of Selection</span></label>
 
-                                <input id="tab4" type="radio" name="tabs">
-                                <label for="tab4"><i class="fas fa-hands-helping"></i><br><span>Financial Aid</span><br></label>
+                            <input id="tab4" type="radio" name="tabs">
+                            <label for="tab4"><i class="fas fa-hands-helping"></i><br><span>Financial Aid</span><br></label>
 
-                                <input id="tab5" type="radio" name="tabs">
-                                <label for="tab5"><i class="fas fa-plane-departure"></i><br><span>Field Trip<br></span></label>
-                                <section id="content1" class="tab-content mx-auto">
+                            <input id="tab5" type="radio" name="tabs">
+                            <label for="tab5"><i class="fas fa-plane-departure"></i><br><span>Field Trip<br></span></label>
+                            <section id="content1" class="tab-content mx-auto">
+
                                     <h3>Registration</h3>
                                     <h4>Registration Date</h4>
                                     <h5>Early Bird:</h5>
@@ -212,8 +228,69 @@
 
                                 </section>
 
-                                <section id="content3" class="tab-content mx-auto">
+                                <section id="content3" class="tab-content mx-auto ">
                                     <h3>Basis of Selection</h3>
+                                    <h4>Registration guide</h4>
+                                    <div class="container-fluid process mb-5 setwidth">
+                                        <div class="row process-items justify-content-center d-none d-md-flex">
+                                            <div class="active col-2 s1" id="0"><p>Step 1</p>
+                                                <em>Complete the essay questions</em>
+                                            </div>
+                                            <div class="col-2 s2" id="1"><p>Step 2</p>
+                                                <em>Complete the registration form as below</em>
+                                            </div>
+                                            <div class="col-3 s3" id="2"><p>Step 3</p>
+                                                <em>We will review your answers to the essay questions. </em>
+                                            </div>
+                                            <div class="col-3 s4" id="3"><p>Step 4</p>
+                                                <em>If you are qualified, we will send you a confirmation letter within 1 week.</em>
+                                            </div>
+                                            <div class="col-2 s5" id="4"><p>Step 5</p>
+                                                <em>Registration completed</em>
+                                            </div>
+                                        </div>
+                                        <div class="row d-none d-md-flex">
+                                            <div class="col-12">
+                                                <canvas id="canvas" height="55"></canvas><!--style="width:100%"-->
+                                            </div>
+                                        </div>
+
+                                        <div class="row d-block d-md-none mx-auto" id="mobile-step">
+                                            <div class="col-10 mx-auto">
+                                                <div class="testimonial-area">
+                                                    <div class="testimonial-image-slider slider-nav text-center">
+                                                        <div class="mcontent">
+                                                            <p>Step 1</p>
+                                                            <em>Complete the essay questions</em>
+                                                        </div>
+                                                        <div class="mcontent">
+                                                            <p>Step 2</p>
+                                                            <em>Complete the registration form as below</em>
+
+                                                        </div>
+                                                        <div class="mcontent">
+                                                            <p>Step 3</p>
+                                                            <em>We will review your answers to the essay questions. </em>
+
+                                                        </div>
+                                                        <div class="mcontent">
+                                                            <p>Step 4</p>
+                                                            <em>If you are qualified, we will send you a confirmation letter within 1 week.</em>
+
+                                                        </div>
+                                                        <div class="mcontent">
+                                                            <p>Step 5</p>
+                                                            <em>Registration completed</em>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        
+                                    </div>
                                     <p>We expect a thought-provoking essay in this year’s topic Shifts and Shocks. The essay must meet the following criteria:</p>
                                     <table class="table table-hover">
                                         <tbody>
@@ -349,6 +426,8 @@
                     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeh-1p7qlFoTNtr9ZldL4k3vjKC4Ny8RM" async defer></script>
                     <script src="lib/jquery/jquery.min.js"></script>
                     <script src="lib/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
                     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
                     <script src="lib/easing/easing.min.js"></script>
                     <script src="lib/superfish/hoverIntent.js"></script>
@@ -360,6 +439,7 @@
                     <script src="lib/isotope/isotope.pkgd.min.js"></script>
                     <script src="lib/lightbox/js/lightbox.min.js"></script>
                     <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
                     <!-- Contact Form JavaScript File -->
                     <script src="contactform/contactform.js"></script>
 

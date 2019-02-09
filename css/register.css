@@ -65,6 +65,7 @@ label {
   background: #fff;
   color: #585858;
   border-bottom: 2px solid #f0f0f0;
+  overflow-x: hidden;
 }
 .mylabel {
   background: #fff;
@@ -146,4 +147,137 @@ label .fas {
 }
 .link {
   text-align:center;
+}
+
+/* registration guide */
+
+.process {
+  width: 100%;
+  margin: 0px 0px;
+  cursor: default;
+}
+
+.process-items {
+  margin: 0 0 10px;
+  padding: 0;
+  list-style-type: none;
+  color: #585858;
+  font-size: 18px;
+  text-align: center;
+}
+.process-items div {
+  vertical-align: bottom;
+  padding: 0 0.5em;
+  -webkit-transform: scale(0.8) translateY(30px);
+          transform: scale(0.8) translateY(30px);
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.process-items div.active {
+  -webkit-transform: scale(1) translateY(0);
+          transform: scale(1) translateY(0);
+}
+.process-items em {
+  display: block;
+  margin-top: 0.5em;
+}
+.process-items p {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/*mobile slick text slider*/
+.testimonial-area {
+    display: block;
+    background: rgba(0, 0, 0, 0);
+    width:100%;
+    padding: 20px 0 0px;
+    position: relative;
+}
+
+.testimonial-image-slider {margin-top: 5px}
+.slick-list {margin: 0 5px}
+
+.mcontent{
+  height:100%;
+  transform: scale(0.7);
+}
+.mcontent p{
+  font-weight: bold;
+  }
+.mcontent.slick-current{
+    z-index:1;
+  transform: scale(1) translateY(0px);
+  -webkit-transition: all .5s; /* Safari */
+  transition: all .5s;
+}
+
+.slick-prev, .slick-next {
+    background: rgba(0,0,0,0) none repeat scroll 0 0;
+    border: medium none;
+    color: blue;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 25px;
+    outline: medium none;
+    padding: 0;
+    position: absolute;
+    top: 0%;
+    width: 16px;
+}
+.slick-prev {
+    left: 0px;
+    z-index:1;
+}
+
+.slick-next {right: 0px}
+.slick-prev:before{
+    height: 25px;
+    width: 32px;
+    left: -30px;
+    top: 40px;
+    position: absolute;
+    color:#585858;
+    font-weight : bold;
+    content: "<";
+    font-family: "Material-Design-Iconic-Font";
+    font-size: 2.5rem !important;
+    opacity: 1;
+    
+}
+.slick-next:before {
+    height: 25px;
+    width: 16px;
+    left: 15px;
+    top: 40px;
+    position: absolute;
+    color:#585858;
+    font-weight : bold;
+    content: ">";
+    font-family: "Material-Design-Iconic-Font";
+    font-size: 2.5rem !important;
+    opacity: 1;
+    
+}
+
+.slick-next:before {
+    opacity: 1;
+    right: 0; 
+}
+.slick-slider {z-index: 9;}
+
+@media (max-width: 980px) {
+  .slider-row {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 981px) {
+  .slider-row {
+    max-width: 1160px;
+  }
 }
