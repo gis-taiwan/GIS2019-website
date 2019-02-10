@@ -281,3 +281,15 @@ label .fas {
     max-width: 1160px;
   }
 }
+a.btn.signup{
+    width:30%;
+    min-width:110px;
+    color: white !important;
+}
+.formlink{
+    width:100%;
+    height:100%;
+    color: white !important;
+    /*min-width:190px;*/
+
+}
