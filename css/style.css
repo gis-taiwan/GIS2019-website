@@ -225,10 +225,18 @@ h1,h2,h3,h4,h5,h6 {
 
 #intro h2 {
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   font-size: 48px;
   font-weight: 700;
 }
+/* Global Initiatives Symposium in Taiwan */
+#intro h2+p{
+    width:100%;
+}
+#intro i{
+    width:100%;
+}
+/* End */
 
 #intro p {
   width: 80%;
