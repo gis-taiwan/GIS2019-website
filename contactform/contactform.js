@@ -3,6 +3,7 @@ jQuery(document).ready(function($) {
 
   //Contact
   $('form.contactForm').submit(function(e) {
+      console.log('form submit');
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
@@ -90,20 +91,20 @@ jQuery(document).ready(function($) {
     });
     if (ferror) return false;
     else var str = $(this).serialize();
-    console.log(str);
+    //console.log(str);
 
     const scriptURL = 'https://script.google.com/macros/s/AKfycbwWqo5vPXDe1TVGrSrhptU64m8d4tC0jG9m-hVMVlx5y_RztQ0/exec'
     const form = document.forms['contact-us']
 
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(function(response){
-            //console.log('Success!', response);
+            console.log('Success!', response);
             $("#sendmessage").addClass("show");
             $("#errormessage").removeClass("show");
             $('.contactForm').find("input, textarea").val("");
         })
         .catch(function(error){
-            //console.error('Error!', error.message);
+            console.error('Error!', error.message);
             $("#sendmessage").removeClass("show");
             $("#errormessage").addClass("show");
             $('#errormessage').html(error.message);
