@@ -1234,3 +1234,11 @@ ul.navbar-loc{
     margin-top: 0.7rem
 }
 
+/* banner */
+.topimage{
+    height: 40vh;
+}
+.bg-cover{
+    background-size: cover;
+    background-position: center 60%;
+}
