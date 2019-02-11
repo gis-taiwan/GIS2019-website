@@ -209,6 +209,8 @@ file to your project folder
             }
         ]
     });
+    $('.slider-nav').slick('slickNext');
+    $('.slider-nav').slick('slickPrev');
     init();
     $(window).resize(function(){
         init();
