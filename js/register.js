@@ -191,15 +191,7 @@ file to your project folder
         infinite: true,
         responsive: [
             {
-              breakpoint: 450,
-              settings: {
-                dots: false,
-                slidesToShow: 3,  
-                centerPadding: '0px',
-                }
-            },
-            {
-              breakpoint: 420,
+              breakpoint: 500,
               settings: {
                 autoplay: true,
                 dots: false,

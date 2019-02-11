@@ -237,7 +237,7 @@ label .fas {
 .slick-next {right: 0px}
 .slick-prev:before{
     height: 25px;
-    width: 32px;
+    width: 16px;
     left: -30px;
     top: 40px;
     position: absolute;
