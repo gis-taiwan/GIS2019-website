@@ -1,0 +1,65 @@
+#container p{
+  text-shadow: 0 0 7px rgba(116, 116, 116, 0.2);
+  font-family: Courier, monospace;
+  font-smoothing: antialiased;
+  margin: 0.5em 0;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 60;
+  color: rgba(116, 116, 116, 1);
+}
+
+.ghost,
+.glitch {
+  opacity: 0.5;
+}
+
+#message {
+  position: relative;
+  width: 80%;
+}
+
+#container {
+  /*
+  background: -webkit-radial-gradient(50% 50%, ellipse, #20202D 0%, #101018 75%, #060612 100%);
+  background: -moz-radial-gradient(50% 50%, ellipse, #20202D 0%, #101018 75%, #060612 100%);
+  */
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+#container:before {
+  pointer-events: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  left: 0;
+  top: 0;
+}
+
+#message:before,
+#message:after {
+	position: absolute;
+	color: #ccc;
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+#message:before {
+	content: '“';
+	left: -2rem;
+	top: -6rem;
+}
+
+#message:after {
+	content: '”';
+	right: -2rem;
+	bottom: -1rem;
+}
+
+.about-us table td p{
+    margin-bottom: 1rem;
+}
