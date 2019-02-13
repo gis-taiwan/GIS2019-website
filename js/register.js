@@ -1,6 +1,7 @@
 var showindex = '1';
 $( document ).ready(function() {
     function show(index){
+        var current = $("#register-list:nth-child(" + index + ")");
         var newtabid = "#tab" + index;
         var oldtabid = "#tab" + showindex;
         //console.log(oldtabid);
@@ -13,6 +14,13 @@ $( document ).ready(function() {
         $(newtabid + "+ label .fas").addClass("myfas");
         $("#content"+index).addClass("mycontent");
         showindex = index;
+        $('.menu-active.menu-item-active').removeClass('menu-active menu-item-active');
+        var current = $("#register-list li:nth-child(" + index + ")");
+        current.addClass('menu-active menu-item-active');
+        //console.log(current);
+        //console.log(index);
+        //console.log("#register-list:nth-child(" + index + ")");
+
     }
 
 

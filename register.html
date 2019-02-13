@@ -52,6 +52,7 @@
             gtag('js', new Date());
 
             gtag('config', 'UA-129743888-2');
+
             function show(index){
                 var newtabid = "#tab" + index;
                 var oldtabid = "#tab" + showindex;
@@ -65,7 +66,12 @@
                 $(newtabid + "+ label .fas").addClass("myfas");
                 $("#content"+index).addClass("mycontent");
                 showindex = index;
+                // nav bar
+                $('.menu-active.menu-item-active').removeClass('menu-active menu-item-active');
+                $('#register-list li:nth-child(' + index + ')').addClass('menu-active menu-item-active');
+                $( "#mobile-nav-toggle" ).trigger( "click" );
                 document.getElementById('registertab').scrollIntoView();
+
             }
         </script>
 
@@ -109,7 +115,7 @@
                                 </ul>
                             </li>
                             <li id="here" class="menu-has-children menu-active"><a href="#">Register</a>
-                                <ul>
+                                <ul id="register-list">
                                     <li><a  href="javascript:show('1')">Registration</a></li>
                                     <li><a  href="javascript:show('2')">High School Program</a></li>
                                     <li><a  href="javascript:show('3')">Basis of Selection</a></li>
