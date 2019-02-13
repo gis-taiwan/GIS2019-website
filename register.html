@@ -53,7 +53,8 @@
 
             gtag('config', 'UA-129743888-2');
 
-            function show(index){
+            function show(index,closemenu){
+                //console.log('in html');
                 var newtabid = "#tab" + index;
                 var oldtabid = "#tab" + showindex;
                 //console.log(oldtabid);
@@ -69,7 +70,10 @@
                 // nav bar
                 $('.menu-active.menu-item-active').removeClass('menu-active menu-item-active');
                 $('#register-list li:nth-child(' + index + ')').addClass('menu-active menu-item-active');
-                $( "#mobile-nav-toggle" ).trigger( "click" );
+
+                if(closemenu && $('body').hasClass('mobile-nav-active')){
+                    $("#mobile-nav-toggle").trigger( "click" );
+                }
                 document.getElementById('registertab').scrollIntoView();
 
             }
@@ -116,11 +120,11 @@
                             </li>
                             <li id="here" class="menu-has-children menu-active"><a href="#">Register</a>
                                 <ul id="register-list">
-                                    <li><a  href="javascript:show('1')">Registration</a></li>
-                                    <li><a  href="javascript:show('2')">High School Program</a></li>
-                                    <li><a  href="javascript:show('3')">Basis of Selection</a></li>
-                                    <li><a  href="javascript:show('4')">Financial Aid</a></li>
-                                    <li><a  href="javascript:show('5')">Field Trip</a></li>
+                                    <li><a  href="javascript:show('1',true)">Registration</a></li>
+                                    <li><a  href="javascript:show('2',true)">High School Program</a></li>
+                                    <li><a  href="javascript:show('3',true)">Basis of Selection</a></li>
+                                    <li><a  href="javascript:show('4',true)">Financial Aid</a></li>
+                                    <li><a  href="javascript:show('5',true)">Field Trip</a></li>
                                 </ul>
                             </li>
                             <li><a href="./coming-soon.html">Sponsorship</a></li>
@@ -217,7 +221,7 @@
 
                                     <p>Please attach the letter of recommendation to the Essay Questions Upload section in the Application Form.</p> 
                                     <div class="mx-auto text-center my-5">
-                                        <a  href="javascript:show('3')" class="btn btn-lg btn-primary signup">Sign Up</a>
+                                        <a  href="javascript:show('3',false)" class="btn btn-lg btn-primary signup">Sign Up</a>
                                     </div>
                                 </section>
 
@@ -238,7 +242,7 @@
                                     <p>High School Program:</p>
                                     <p>7900 TWD</p>
                                     <div class="mx-auto text-center my-5">
-                                        <a  href="javascript:show('3')" class="btn btn-lg btn-primary signup">Sign Up</a>
+                                        <a  href="javascript:show('3',false)" class="btn btn-lg btn-primary signup">Sign Up</a>
                                     </div>
 
 
