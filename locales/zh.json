@@ -1,0 +1,114 @@
+{
+    "nav": {
+        "home": "首頁",
+        "about": "關於",
+        "about-us": "關於我們",
+        "organizing-committee": "籌備團隊",
+        "advisory-panel": "指導委員會",
+        "partnership": "海外夥伴",
+        "past-conference": "歷屆回顧",
+        "gis2019": "GIS 2019",
+        "annual-theme": "年度主題",
+        "agenda": "會議時程",
+        "academic-topic": "學術主題",
+        "action-poject": "行動企劃",
+        "register": "報名",
+        "registration": "報名",
+        "high-school-program": "高中生計畫",
+        "basis-of-selection": "審查方式",
+        "financial-aid": "補助方案",
+        "field-trip": "會後旅遊",
+        "sponsorship": "贊助企業",
+        "faq": "常見問題",
+        "contact": "聯絡我們",
+        "toggle-buttom": "English"
+    },
+    "footer": {
+        "des": "全球集思論壇 GIS Taiwan 為一個由臺灣大學學務處指導、國際事務處支持的國際學生論壇，於 2009 年時創立，旨在建立全亞洲影響力最大的青年討論平台。透過匯聚各領域學者、企業界領袖，以及來自世界各地的青年學生代表，GIS Taiwan期望能整合學術與實務的應用，並建立跨領域、跨世代的產官學交流平台，以提供全球領導者與學生互動的契機。",
+        "contact_us": "聯絡我們",
+        "address1": "國立臺灣大學",
+        "address2": "10617 臺北市羅斯福路四段一號",
+        "address3": "中華民國（台灣）",
+        "phone": "電話：",
+        "email": "電子郵件："
+    },
+    "home": {
+        "title": "全球集思論壇",
+        "description": "全球集思論壇 GIS Taiwan 為一個由臺灣大學學務處指導、國際事務處支持的國際學生論壇，於 2009 年時創立，旨在建立全亞洲影響力最大的青年討論平台。透過匯聚各領域學者、企業界領袖，以及來自世界各地的青年學生代表，GIS Taiwan期望能整合學術與實務的應用，並建立跨領域、跨世代的產官學交流平台，以提供全球領導者與學生互動的契機。",
+        "contact-us": "聯絡我們",
+        "register": "立即報名",
+        "countdown":{
+            "date":"2019 年 7 月 8 日 - 2019 年 7 月 12 日",
+            "description":"年度集思論壇倒數",
+            "days": "天",
+            "hours": "小時",
+            "minutes": "分鐘",
+            "seconds": "秒"
+        },
+        "intro": {
+            "keynote": "專題演講",
+            "keynote_des": "專題演講主題皆為具前瞻性和發展性的趨勢，劃分為四個不同領域，並邀請四位講者，以創新的思維以及實際案例，讓學生代表獲得啟發。",
+            "workshop": "工作坊",
+            "workshop_des": "以專題演講的領域為討論背景，提供代表們不一樣的切入觀點，並邀請講者帶領深度工作坊，結合個案分析或團體提案等活動將想法付諸實行。",
+            "ap": "企劃競賽",
+            "ap_des": "不同國家的學生代表將運用在學術主題學到的專業知識應用於相關產業領域，由業界導師指導後研擬完整可行的行動方案，進行分組競賽。"
+        },
+        "g_info": {
+            "title": "一般資訊",
+            "theme": "年度主題",
+            "theme_detail": "衝擊與轉變",
+            "time": "會議時間",
+            "time_detail": "2019 年 7 月 8 日 - 2019 年 7 月 12 日",
+            "participants": "與會代表",
+            "participants_detail": "以大學部或研究所在學學生為主，另有高中生計畫提供高中生報名。",
+            "language": "官方語言",
+            "language_detail": "會議期間全程使用英文。",
+            "host": "主辦單位",
+            "host_detail": "國立臺灣大學、GIS Taiwan 2018 學生籌備團隊",
+            "location": "會議地點",
+            "location_detail1": "國立臺灣大學",
+            "location_detail2": "10617 臺北市羅斯福路四段一號",
+            "location_detail3": "中華民國（台灣）",
+
+            "timeline": {
+                "ebird": "早鳥優惠報名",
+                "ebird_date": "2019 年 2 月 11 日 - 2019 年 3 月 24 日",
+                "regular_s": "一般報名開始",
+                "regular_s_date": "2019 年 4 月 1 日",
+                "regular_e": "一般報名結束",
+                "regular_e_date": "2019 年 5 月 12 日",
+                "release": "錄取名單公布",
+                "release_date": "2019 年 6 月 11日"
+            }
+        },
+        "cta": {
+            "title": "你還在等什麼呢？",
+            "des1": "加入亞太最具影響力論壇，與來自20多個國家的300位代表一起做出改變！",
+            "des2": "",
+            "buttom": "立即報名"
+        },
+        "facts": {
+            "title": "歷年數據",
+            "des": "20多個國家超過300位代表一同討論人類現今所面對的議題與難題。",
+            "delegates": "代表",
+            "countries": "國家",
+            "partnerships": "海外夥伴",
+            "speakers": "講者"
+        },
+        "contact_us": {
+            "title": "聯絡我們",
+            "des": "如果有任何問題歡迎在下方留言，我們將盡速為您服務！",
+            "address": "地址",
+            "address1": "國立臺灣大學",
+            "address2": "10617 臺北市羅斯福路四段一號",
+            "address3": "中華民國（台灣）",
+            "phone": "電話號碼",
+            "email": "電子郵件",
+            "send": "訊息已送出，再次感謝您的回覆！",
+            "sendbuttom": "送出訊息"
+        }
+
+
+    }
+
+}

@@ -1,0 +1,110 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "about-us": "About Us",
+        "organizing-committee": "Organizing Committee",
+        "advisory-panel": "Advisory Panel",
+        "partnership": "Partnership",
+        "past-conference": "Past Conferences",
+        "gis2019": "GIS 2019",
+        "annual-theme": "Annual Theme",
+        "agenda": "Agenda",
+        "academic-topic": "Academic Topic",
+        "action-poject": "Action Project",
+        "register": "Register",
+        "registration": "Registration",
+        "high-school-program": "High School Program",
+        "basis-of-selection": "Basis of Selection",
+        "financial-aid": "Financial Aid",
+        "field-trip": "Field Trip",
+        "sponsorship": "Sponsorship",
+        "faq": "FAQ",
+        "contact": "Contact",
+        "toggle-buttom": "中文"
+    },
+    "footer": {
+        "des": "GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.",
+        "contact_us": "Contact Us",
+        "address1": "National Taiwan University",
+        "address2": "#1, Sec. 4 Roosevelt Rd.",
+        "address3": "Taipei 10617, Taiwan (R.O.C.)",
+        "phone": "Phone:",
+        "email": "Email:"
+    },
+    "home": {
+        "title": "GIS Taiwan",
+        "description": "GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.",
+        "contact-us": "Contact us",
+        "register": "Register",
+        "countdown":{
+            "date":"8th, July, 2019 - 12th, July, 2019",
+            "description":"Annual Conference Countdown",
+            "days": "Days",
+            "hours": "Hours",
+            "minutes": "Minutes",
+            "seconds": "seconds"
+        },
+        "intro": {
+            "keynote": "Keynote Speech",
+            "keynote_des": "Themes of the speeches all regard having proactive thinking and developmental possibilities. From the four speakers of different fields, they will combine creative notions and real-life experiences to inspire delegates.",
+            "workshop": "Workshop",
+            "workshop_des": "After providing delegates with different perspectives on the keynote speech topics, we then invite the speakers to lead in-depth workshops. This encourages delegates to engage in deeper thinking and to incorporate individual strategic analysis or group proposals that can be applied to practical usages.",
+            "ap": "Action Project Competition",
+            "ap_des": "Delegates will apply professional knowledge learned from the academic topics on related fields. They will then discuss among groups, and with the help from industrial mentors, draft up feasible action plans and compete."
+        },
+        "g_info": {
+            "title": "General Information",
+            "theme": "Theme",
+            "theme_detail": "Shifts and Shocks",
+            "time": "Time",
+            "time_detail": "8th, July, 2019 - 12th, July, 2019",
+            "participants": "Participants",
+            "participants_detail": "Applicants are mainly undergraduate or graduate students. High-school students can apply via High-School Program.",
+            "language": "Language",
+            "language_detail": "English will be used during the conference as the official language.",
+            "host": "Host",
+            "host_detail": "National Taiwan University, GIS Taiwan 2019 Organizing Committee",
+            "location": "Location",
+            "location_detail1": "National Taiwan University",
+            "location_detail2": "#1, Sec. 4 Roosevelt Rd.",
+            "location_detail3": "Taipei 10617, Taiwan (R.O.C.)",
+            "timeline": {
+                "ebird": "Early Bird Registration",
+                "ebird_date": "11th, February, 2019 - 24th, March, 2019",
+                "regular_s": "Regular Registration Starts",
+                "regular_s_date": "1st, April, 2019",
+                "regular_e": "End of Regular Registration",
+                "regular_e_date": "12th, May, 2019",
+                "release": "Release of Participation",
+                "release_date": "11th, June, 2019"
+            }
+        },
+        "cta": {
+            "title": "What are you waiting for?",
+            "des1": "Join the most influential forum around Asia with 300 fellow delegates from 20+ countries.",
+            "des2": "Start to make a change and start from here",
+            "buttom": "Register"
+        },
+        "facts": {
+            "title": "Facts",
+            "des": "Gathering over 300 people from more than 20 nations to discuss the issues people are facing currently.",
+            "delegates": "Delegates",
+            "countries": "Countries",
+            "partnerships": "Partnerships",
+            "speakers": "Speakers"
+        },
+        "contact_us": {
+            "title": "Contact Us",
+            "des": "If you have any question, please let us know as soon as possible!",
+            "address": "Address",
+            "address1": "National Taiwan University",
+            "address2": "#1, Sec. 4 Roosevelt Rd.",
+            "address3": "Taipei 10617, Taiwan (R.O.C.)",
+            "phone": "Phone Number",
+            "email": "Email",
+            "send": "Your message has been sent. Thank you!",
+            "sendbuttom": "Send Message"
+        }
+    }
+} 
