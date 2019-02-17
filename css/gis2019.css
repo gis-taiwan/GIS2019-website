@@ -57,7 +57,7 @@ Primary style
 }
 .cd-main body {
   font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif,"Apple LiGothic Medium","Microsoft JhengHei";
   color: #363558;
   background-color: #1c1726;
 }
@@ -66,7 +66,7 @@ Primary style
   text-decoration: none;
 }
 .cd-main h1,.cd-main h2 {
-  font-family: "Vollkorn", serif;
+  font-family: "Vollkorn", serif,"Apple LiGothic Medium","Microsoft JhengHei";
 }
 
 /* -------------------------------- 
@@ -584,7 +584,7 @@ folding panel
 .cd-fold-content em {
   display: inline-block;
   margin: 1em 0;
-  font-family: "Vollkorn", serif;
+  font-family: "Vollkorn", serif,"Apple LiGothic Medium","Microsoft JhengHei";
   font-size: 1rem;
   color: #7a78ae;
   -webkit-transition: -webkit-transform 0.2s 0.1s, opacity 0.2s 0.1s;

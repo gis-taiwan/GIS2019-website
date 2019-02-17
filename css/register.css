@@ -18,7 +18,7 @@
 	clear: both;
 }
 #registertab body {
-	font-family: sans-serif;
+	font-family: sans-serif,"Apple LiGothic Medium","Microsoft JhengHei";
 	background: #f6f9fa;
 }
 #registertab h1 {
@@ -244,7 +244,7 @@ label .fas {
     color:#585858;
     font-weight : bold;
     content: "<";
-    font-family: "Material-Design-Iconic-Font";
+    font-family: "Material-Design-Iconic-Font","Apple LiGothic Medium","Microsoft JhengHei";
     font-size: 2.5rem !important;
     opacity: 1;
     
@@ -258,7 +258,7 @@ label .fas {
     color:#585858;
     font-weight : bold;
     content: ">";
-    font-family: "Material-Design-Iconic-Font";
+    font-family: "Material-Design-Iconic-Font","Apple LiGothic Medium","Microsoft JhengHei";
     font-size: 2.5rem !important;
     opacity: 1;
     

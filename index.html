@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="whole">
     <head>
         <meta charset="utf-8">
-        <title>GIS Taiwan</title>
+        <title data-i18n="home.title">GIS Taiwan</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta name="description" content="GIS Taiwan (Global Initiatives Symposium in Taiwan) is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.">
         <meta name="keywords" content="GISTAIWAN,GIS,GIS TAIWAN,GIS taiwan,gistaiwan,全球集思論壇,集思,台大全球集思論壇">
@@ -44,15 +44,15 @@
             License: https://bootstrapmade.com/license/
             ======================================================= -->
 
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129743888-2"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129743888-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-                gtag('config', 'UA-129743888-2');
-            </script>
+            gtag('config', 'UA-129743888-2');
+        </script>
 
     </head>
     <style type="text/css">
@@ -62,7 +62,7 @@
 
         .datecountdown *,.datecountdown h1,.datecountdown p {
             color: whitesmoke;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Montserrat', sans-serif,"Apple LiGothic Medium","Microsoft JhengHei";
             margin-bottom: 0;
         }
         .conference-name,.conference-time {
@@ -107,572 +107,556 @@
         #intro .carousel-p{
             width: 40vw;
         }
-        /*
-        .btn-primary{
-            color: #fff;
-            background-color: rgba(46, 58, 130, 1);
-            border-color: rgba(46, 58, 130, 1);
-        }
-        .btn-primary-op{
-            color: #fff;
-            background-color: rgba(46, 58, 130, 0.4);
-            border-color: rgba(46, 58, 130, 0.4);
-        }
-        */
-        @media  screen and (min-width: 768px) {
+       @media  screen and (min-width: 768px) {
             #intro .carousel-container{
                 margin-left: 4vw;
                 margin-right: 4vw;
             }
         }
-
-        /*
-        .carousel-padding{
-            padding-top: 50vh;
-        }
-        @media  screen and (max-width: 768px) {
-            .carousel-padding{
-                padding-top: 25vh;
-            }
-        }
-        */
-        
+       
     </style>
 
     <body>
-
         <!--==========================
             Header
             ============================-->
-            <header id="header" class="myheader">
-                <div class="container-fluid">
-                    <div id="logo" class="pull-left">
-                        <a href="./index.html" class="navbar-brand"><img src="img/gislogo.png" width=180 alt="" title="" /></a>
-                    </div>
-                    <nav id="nav-menu-container">
-                        <ul class="nav-menu navbar-loc">
-                            <li id="here" class="menu-active"><a href="#intro">Home</a></li>
-                            <li class="menu-has-children"><a href="./about-us.html">About</a>
-                                <ul>
-                                    <li><a href="./about-us.html">About Us</a></li>
-                                    <li><a href="./organizing-committee.html">Organizing Committee</a></li>
-                                    <li><a href="./coming-soon.html">Advisory Panel</a></li>
-                                    <li><a href="./coming-soon.html">Partnership</a></li>
-                                    <li><a href="./past-conference.html">Past Conferences</a></li>
-                                </ul>
-                            </li> 
-                            <li class="menu-has-children"><a href="./gis2019.html">GIS 2019</a>
-                                <ul>
-                                    <li><a href="./gis2019.html#annual_themes">Annual Theme</a></li>
-                                    <li><a href="./agenda.html">Agenda</a></li>
-                                    <li><a href="./gis2019.html#academic_topics">Academic Topic</a></li>
-                                    <li><a href="./coming-soon.html">Action Project</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-has-children"><a href="./register.html">Register</a>
-                                <ul>
-                                    <li><a  href="./register.html#tab1">Registration</a></li>
-                                    <li><a  href="./register.html#tab2">High School Program</a></li>
-                                    <li><a  href="./register.html#tab3">Basis of Selection</a></li>
-                                    <li><a  href="./register.html#tab4">Financial Aid</a></li>
-                                    <li><a  href="./register.html#tab5">Field Trip</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./coming-soon.html">Sponsorship</a></li>
-                            <li><a href="./faq.html">FAQ</a></li>
-                            <li id="contact_nav"><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav><!-- #nav-menu-container -->
+        <header id="header" class="myheader">
+            <div class="container-fluid">
+                <div id="logo" class="pull-left">
+                    <a href="./index.html" class="navbar-brand"><img src="img/gislogo.png" width=180 alt="gis-taiwan logo" title="gis-taiwan logo"/></a>
                 </div>
-            </header><!-- #header -->
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu navbar-loc">
+                        <li id="here" class="menu-active"><a href="#intro" data-i18n="nav.home">Home</a></li>
+                        <li class="menu-has-children"><a href="./about-us.html" data-i18n="nav.about">About</a>
+                            <ul>
+                                <li><a href="./about-us.html" data-i18n="nav.about-us">About Us</a></li>
+                                <li><a href="./organizing-committee.html" data-i18n="nav.organizing-committee">Organizing Committee</a></li>
+                                <li><a href="./coming-soon.html" data-i18n="nav.advisory-panel">Advisory Panel</a></li>
+                                <li><a href="./coming-soon.html" data-i18n="nav.partnership">Partnership</a></li>
+                                <li><a href="./past-conference.html" data-i18n="nav.past-conference">Past Conferences</a></li>
+                            </ul>
+                        </li> 
+                        <li class="menu-has-children"><a href="./gis2019.html" data-i18n="nav.gis2019">GIS 2019</a>
+                            <ul>
+                                <li><a href="./gis2019.html#annual_themes" data-i18n="nav.annual-theme">Annual Theme</a></li>
+                                <li><a href="./agenda.html" data-i18n="nav.agenda">Agenda</a></li>
+                                <li><a href="./gis2019.html#academic_topics" data-i18n="nav.academic-topic">Academic Topic</a></li>
+                                <li><a href="./coming-soon.html" data-i18n="nav.action-poject">Action Project</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-has-children"><a href="./register.html" data-i18n="nav.register">Register</a>
+                            <ul>
+                                <li><a  href="./register.html#tab1" data-i18n="nav.registration">Registration</a></li>
+                                <li><a  href="./register.html#tab2" data-i18n="nav.high-school-program">High School Program</a></li>
+                                <li><a  href="./register.html#tab3" data-i18n="nav.basis-of-selection">Basis of Selection</a></li>
+                                <li><a  href="./register.html#tab4" data-i18n="nav.financial-aid">Financial Aid</a></li>
+                                <li><a  href="./register.html#tab5" data-i18n="nav.field-trip">Field Trip</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./coming-soon.html" data-i18n="nav.sponsorship">Sponsorship</a></li>
+                        <li><a href="./faq.html" data-i18n="nav.faq">FAQ</a></li>
+                        <li id="contact_nav"><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                        <li><a href="javascript:void(0)" class="lang-toggle" data-i18n="nav.toggle-buttom">中文</a></li>
+                    </ul>
+                </nav><!-- #nav-menu-container -->
+            </div>
+        </header><!-- #header -->
 
-            <!--==========================
+        <!--==========================
                 Intro Section
                 ============================-->
-                <section id="intro">
-                    <div class="intro-container">
-                        <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+        <section id="intro">
+            <div class="intro-container">
+                <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-                            <ol class="carousel-indicators"></ol>
+                    <ol class="carousel-indicators"></ol>
 
-                            <div class="carousel-inner" role="listbox">
-                                <div class="carousel-item active">
-                                    <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
-                                    <div class="carousel-container d-flex justify-content-md-end justify-content-center">
-                                            <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-center align-items-md-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
-                                                <h2 class="mt-auto">GIS TAIWAN</h2>
-                                                <p><i>Global Initiatives Symposium in Taiwan</i></p>
-                                                <p class="carousel-p d-none d-md-block">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
-                                                <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
-                                                    <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact">Contact us</a>
-                                                    <a class="btn btn-primary btn-lg ml-sm-4" href="./register.html">&nbsp Register &nbsp </a>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
-                                    <div class="carousel-container d-flex justify-content-md-end justify-content-center">
-                                            <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-center align-items-md-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
-                                                <h2 class="mt-auto">GIS TAIWAN</h2>
-                                                <p><i>Global Initiatives Symposium in Taiwan</i></p>
-                                                <p class="carousel-p d-none d-md-block">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
-                                                <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
-                                                    <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact">Contact us</a>
-                                                    <a class="btn btn-primary btn-lg ml-sm-4" href="./register.html">&nbsp Register &nbsp </a>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
-                                    <div class="carousel-container d-flex justify-content-md-end justify-content-center">
-                                            <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-center align-items-md-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
-                                                <h2 class="mt-auto">GIS TAIWAN</h2>
-                                                <p><i>Global Initiatives Symposium in Taiwan</i></p>
-                                                <p class="carousel-p d-none d-md-block">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
-                                                <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
-                                                    <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact">Contact us</a>
-                                                    <a class="btn btn-primary btn-lg ml-sm-4" href="./register.html">&nbsp Register &nbsp </a>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="carousel-background"><img src="img/intro-carousel/4.JPG" alt=""></div>
-                                    <div class="carousel-container d-flex justify-content-md-end justify-content-center">
-                                            <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-center align-items-md-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
-                                                <h2 class="mt-auto">GIS TAIWAN</h2>
-                                                <p><i>Global Initiatives Symposium in Taiwan</i></p>
-                                                <p class="carousel-p d-none d-md-block">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
-                                                <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
-                                                    <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact">Contact us</a>
-                                                    <a class="btn btn-primary btn-lg ml-sm-4" href="./register.html">&nbsp Register &nbsp </a>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
-                                    <div class="carousel-container d-flex justify-content-md-end justify-content-center">
-                                            <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-center align-items-md-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
-                                                <h2 class="mt-auto">GIS TAIWAN</h2>
-                                                <p><i>Global Initiatives Symposium in Taiwan</i></p>
-                                                <p class="carousel-p d-none d-md-block">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
-                                                <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
-                                                    <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact">Contact us</a>
-                                                    <a class="btn btn-primary btn-lg ml-sm-4" href="./register.html">&nbsp Register &nbsp </a>
-                                                </div>
-                                            </div>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+                            <div class="carousel-container d-flex justify-content-md-end justify-content-center">
+                                <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-center align-items-md-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
+                                    <h2 class="mt-auto">GIS TAIWAN</h2>
+                                    <p><i>Global Initiatives Symposium in Taiwan</i></p>
+                                    <p class="carousel-p d-none d-md-block" data-i18n="home.description">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
+                                    <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
+                                        <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact" data-i18n="home.contact-us">Contact us</a>
+                                        <a class="btn btn-primary btn-lg ml-sm-4 px-4" href="./register.html" data-i18n="home.register">Register</a>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+                            <div class="carousel-container d-flex justify-content-md-end justify-content-center">
+                                <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-center align-items-md-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
+                                    <h2 class="mt-auto">GIS TAIWAN</h2>
+                                    <p><i>Global Initiatives Symposium in Taiwan</i></p>
+                                    <p class="carousel-p d-none d-md-block" data-i18n="home.description">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
+                                    <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
+                                        <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact" data-i18n="home.contact-us">Contact us</a>
+                                        <a class="btn btn-primary btn-lg ml-sm-4 px-4" href="./register.html" data-i18n="home.register">Register</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                            <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
+                        <div class="carousel-item">
+                            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+                            <div class="carousel-container d-flex justify-content-md-end justify-content-center">
+                                <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-center align-items-md-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
+                                    <h2 class="mt-auto">GIS TAIWAN</h2>
+                                    <p><i>Global Initiatives Symposium in Taiwan</i></p>
+                                    <p class="carousel-p d-none d-md-block" data-i18n="home.description">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
+                                    <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
+                                        <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact" data-i18n="home.contact-us">Contact us</a>
+                                        <a class="btn btn-primary btn-lg ml-sm-4 px-4" href="./register.html" data-i18n="home.register">Register</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                            <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
+                        <div class="carousel-item">
+                            <div class="carousel-background"><img src="img/intro-carousel/4.JPG" alt=""></div>
+                            <div class="carousel-container d-flex justify-content-md-end justify-content-center">
+                                <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-center align-items-md-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
+                                    <h2 class="mt-auto">GIS TAIWAN</h2>
+                                    <p><i>Global Initiatives Symposium in Taiwan</i></p>
+                                    <p class="carousel-p d-none d-md-block" data-i18n="home.description">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
+                                    <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
+                                        <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact" data-i18n="home.contact-us">Contact us</a>
+                                        <a class="btn btn-primary btn-lg ml-sm-4 px-4" href="./register.html" data-i18n="home.register">Register</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+                            <div class="carousel-container d-flex justify-content-md-end justify-content-center">
+                                <div class="carousel-content carousel-padding text-md-right text-center d-flex flex-column justify-content-center align-items-center align-items-md-end align-self-stretch mx-5 mb-5 pb-5 mt-md-auto">
+                                    <h2 class="mt-auto">GIS TAIWAN</h2>
+                                    <p><i>Global Initiatives Symposium in Taiwan</i></p>
+                                    <p class="carousel-p d-none d-md-block" data-i18n="home.description">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
+                                    <div class="d-flex align-self-md-end align-self-center justify-content-center justify-content-md-end mt-md-1 mt-auto">
+                                        <a class="btn btn-outline-primary d-none d-sm-block btn-lg" href="#contact" data-i18n="home.contact-us">Contact us</a>
+                                        <a class="btn btn-primary btn-lg ml-sm-4 px-4" href="./register.html" data-i18n="home.register">Register</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+        </section><!-- #intro -->
+
+        <main id="main">
+            <section class=" datecountdown" >
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Conference info for left column -->
+                <div class="col-md-8 conference-name d-flex flex-column  justify-content-center">
+                    <div class=" text-md-right text-center" id="topic">
+                        <h1 data-i18n="home.countdown.date">8th, July, 2019 - 12th, July, 2019</h1>
+                        <p data-i18n="home.countdown.description">Annual Conference Countdown<p>
+                    </div>
+                </div>
+                <!-- Countdown for right column -->
+                <div class="col-md-4 conference-time">
+                    <div class="pt-1 px-1" id="countdownElement">
+                        <div class="row justify-content-around text-center">
+                            <div>
+                                <span class="days"></span>
+                                <div class="time-unit" data-i18n="home.countdown.days">Days</div>
+                            </div>
+                            <div>
+                                <span class="hours"></span>
+                                <div class="time-unit" data-i18n="home.countdown.hours">Hours</div>
+                            </div>
+                            <div>
+                                <span class="minutes"></span>
+                                <div class="time-unit" data-i18n="home.countdown.minutes">Minutes</div>
+                            </div>
+                            <div>
+                                <span class="seconds"></span>
+                                <div class="time-unit" data-i18n="home.countdown.seconds">Seconds</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==========================
+                About Us Section
+                ============================-->
+            <section id="about">
+                <div class="container">
+
+                    <header class="section-header">
+                        <h3>GIS TAIWAN</h3>
+                    </header>
+
+                    <div class="row about-cols">
+
+                        <div class="col-md-4 wow fadeInUp">
+                            <div class="about-col">
+                                <div class="img">
+                                    <img src="img/keynote-speech.JPG" alt="" class="img-fluid">
+                                    <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                                </div>
+                                <h2 class="title" data-i18n="home.intro.keynote">Keynote Speech</h2>
+                                <p data-i18n="home.intro.keynote_des">
+                                Themes of the speeches all regard having proactive thinking and developmental possibilities. From the four speakers of different fields, they will combine creative notions and real-life experiences to inspire delegates. 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="about-col">
+                                <div class="img">
+                                    <img src="img/workshop.jpg" alt="" class="img-fluid">
+                                    <div class="icon"><i class="ion-ios-list-outline"></i></div>
+                                </div>
+                                <h2 class="title" data-i18n="home.intro.workshop">Workshop</h2>
+                                <p data-i18n="home.intro.workshop_des">
+                                After providing delegates with different perspectives on the keynote speech topics, we then invite the speakers to lead in-depth workshops. This encourages delegates to engage in deeper thinking and to incorporate individual strategic analysis or group proposals that can be applied to practical usages.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="about-col">
+                                <div class="img">
+                                    <img src="img/ap.JPG" alt="" class="img-fluid">
+                                    <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+                                </div>
+                                <h2 class="title" data-i18n="home.intro.ap">Action Project Competition</h2>
+                                <p data-i18n="home.intro.ap_des">
+                                Delegates will apply professional knowledge learned from the academic topics on related fields. They will then discuss among groups, and with the help from industrial mentors, draft up feasible action plans and compete.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section><!-- #about -->
+
+            <!--==========================
+                General Information Section
+                ============================-->
+            <section id="g_info">
+                <div class="container">
+                    <header class="section-header wow fadeInUp">
+                        <h3 class="mt-4" data-i18n="home.g_info.title">General Information</h3>
+                    </header>
+
+                    <div class="row">
+                        <div class="col-md-6 mt-4 pt-1">
+                            <div class="ml-md-3 text-md-left text-center">
+                                <h2 data-i18n="home.g_info.theme">Theme</h2>
+                                <p data-i18n="home.g_info.theme_detail">Shifts and Shocks</p>
+                                <h2 data-i18n="home.g_info.time">Time</h2>
+                                <p data-i18n="home.g_info.time_detail">8th, July, 2019 - 12th, July, 2019</p>
+                                <h2 data-i18n="home.g_info.participants">Participants</h2>
+                                <p data-i18n="home.g_info.participants_detail">Applicants are mainly undergraduate or graduate students. High-school students can apply via High-School Program.</p>
+                                <h2 data-i18n="home.g_info.language">Language</h2>
+                                <p data-i18n="home.g_info.language_detail">English will be used during the conference as the official language.</p>
+                                <h2 data-i18n="home.g_info.host">Host</h2>
+                                <p data-i18n="home.g_info.host_detail">National Taiwan University, GIS Taiwan 2019 Organizing Committee</p>
+                                <h2 data-i18n="home.g_info.location">Location</h2>
+                                <div class="br">
+                                    <p data-i18n="home.g_info.location_detail1">National Taiwan University</p>
+                                    <p data-i18n="home.g_info.location_detail2">#1, Sec. 4 Roosevelt Rd.</p>
+                                    <p data-i18n="home.g_info.location_detail3">Taipei 10617, Taiwan (R.O.C.)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="timeline-container">
+                                <div id="timeline">
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-icon">
+                                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="timeline-content right mr-auto">
+                                            <h2 data-i18n="home.g_info.timeline.ebird">Early Bird Registration</h2>
+                                            <p>
+
+                                            </p>
+                                            <span class="time-stamp" data-i18n="home.g_info.timeline.ebird_date">11th, February, 2019 - 24th, March, 2019</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-icon">
+                                            <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="timeline-content right">
+                                            <h2 data-i18n="home.g_info.timeline.regular_s">Regular Registration Starts</h2>
+                                            <p>
+
+                                            </p>
+                                            <span class="time-stamp" data-i18n="home.g_info.timeline.regular_s_date">1st, April, 2019</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-icon">
+                                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="timeline-content right">
+                                            <h2 data-i18n="home.g_info.timeline.regular_e">End of Regular Registration</h2>
+                                            <p>
+
+                                            </p>
+                                            <span class="time-stamp" data-i18n="home.g_info.timeline.regular_e_date">12th, May, 2019</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item right">
+                                        <div class="timeline-icon">
+                                            <i class="fa fa-key" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="timeline-content right">
+                                            <h2 data-i18n="home.g_info.timeline.release">Release of Participation</h2>
+                                            <p>
+
+                                            </p>
+                                            <span class="time-stamp" data-i18n="home.g_info.timeline.release_date">11th, June, 2019</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
-                </section><!-- #intro -->
+                </div>
+            </section><!-- #services -->
 
-                <main id="main">
-                        <section class=" datecountdown" >
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <!-- Conference info for left column -->
-                                    <div class="col-md-8 conference-name d-flex flex-column  justify-content-center">
-                                        <div class=" text-md-right text-center" id="topic">
-                                            <h1>8th, July, 2019 - 12th, July, 2019</h1>
-                                            <p>Annual Conference Countdown<p>
-                                        </div>
-                                    </div>
-                                    <!-- Countdown for right column -->
-                                    <div class="col-md-4 conference-time">
-                                        <div class="pt-1 px-1" id="countdownElement">
-                                            <div class="row justify-content-around text-center">
-                                                <div>
-                                                    <span class="days"></span>
-                                                    <div class="time-unit">Days</div>
-                                                </div>
-                                                <div>
-                                                    <span class="hours"></span>
-                                                    <div class="time-unit">Hours</div>
-                                                </div>
-                                                <div>
-                                                    <span class="minutes"></span>
-                                                    <div class="time-unit">Minutes</div>
-                                                </div>
-                                                <div>
-                                                    <span class="seconds"></span>
-                                                    <div class="time-unit">Seconds</div>
-                                                </div>
-                                            </div>
+            <!--==========================
+                Call To Action Section
+                ============================-->
+            <section id="call-to-action" class="wow fadeIn">
+                <div class="container text-center">
+                    <h3 data-i18n="home.cta.title">What are you waiting for?</h3>
+                    <div class="br">
+                        <p data-i18n="home.cta.des1">Join the most influential forum around Asia with 300 fellow delegates from 20+ countries.</p>
+                        <p data-i18n="home.cta.des2">Start to make a change and start from here</p>
+                    </div>
+                    <a class="cta-btn" href="./register.html" data-i18n="home.cta.buttom">Register</a>
+                </div>
+            </section><!-- #call-to-action -->
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+            <!--==========================
+                Facts Section
+                ============================-->
+            <section id="facts"  class="wow fadeIn">
+                <div class="container pb-5">
+                    <header class="section-header">
+                        <h3 data-i18n="home.facts.title">Facts</h3>
+                        <p data-i18n="home.facts.des">Gathering over 300 people from more than 20 nations to discuss the issues people are facing currently.</p>
+                    </header>
+                    <div class="row counters">
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up">300</span>
+                            <p data-i18n="home.facts.delegates">Delegates</p>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up">20</span>
+                            <p data-i18n="home.facts.countries">Countries</p>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up">10</span>
+                            <p data-i18n="home.facts.partnerships">Partnerships</p>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up">40</span>
+                            <p data-i18n="home.facts.speakers">Speakers</p>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- #facts -->
+            <!--==========================
+                Contact Section
+                ============================-->
+            <section id="contact" class="section-bg wow fadeInUp">
+                <div class="container">
 
-                    <!--==========================
-                        About Us Section
-                        ============================-->
-                        <section id="about">
-                            <div class="container">
+                    <div class="section-header">
+                        <h3 data-i18n="home.contact_us.title">Contact Us</h3>
+                        <p data-i18n="home.contact_us.des">If you have any question, please let us know as soon as possible!</p>
+                    </div>
 
-                                <header class="section-header">
-                                    <h3>GIS TAIWAN</h3>
-                                </header>
+                    <div class="row contact-info">
 
-                                <div class="row about-cols">
-
-                                    <div class="col-md-4 wow fadeInUp">
-                                        <div class="about-col">
-                                            <div class="img">
-                                                <img src="img/keynote-speech.JPG" alt="" class="img-fluid">
-                                                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                                            </div>
-                                            <h2 class="title">Keynote Speech</h2>
-                                            <p>
-                                            Themes of the speeches all regard having proactive thinking and developmental possibilities. From the four speakers of different fields, they will combine creative notions and real-life experiences to inspire delegates. 
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                                        <div class="about-col">
-                                            <div class="img">
-                                                <img src="img/workshop.jpg" alt="" class="img-fluid">
-                                                <div class="icon"><i class="ion-ios-list-outline"></i></div>
-                                            </div>
-                                            <h2 class="title">Workshop</h2>
-                                            <p>
-                                            After providing delegates with different perspectives on the keynote speech topics, we then invite the speakers to lead in-depth workshops. This encourages delegates to engage in deeper thinking and to incorporate individual strategic analysis or group proposals that can be applied to practical usages.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                                        <div class="about-col">
-                                            <div class="img">
-                                                <img src="img/ap.JPG" alt="" class="img-fluid">
-                                                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
-                                            </div>
-                                            <h2 class="title">Action Project Competition</h2>
-                                            <p>
-                                            Delegates will apply professional knowledge learned from the academic topics on related fields. They will then discuss among groups, and with the help from industrial mentors, draft up feasible action plans and compete.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </section><!-- #about -->
-
-                        <!--==========================
-                            Services Section
-                            ============================-->
-                            <section id="services">
-                                <div class="container">
-
-                                    <header class="section-header wow fadeInUp">
-                                        <h3 class="mt-4">General Information</h3>
-                                    </header>
-
-                                    <div class="row">
-                                       <div class="col-md-6 mt-4 pt-1">
-                                           <div class="ml-md-3 text-md-left text-center">
-                                               <h2>Shifts and Shocks</h2>
-                                               <h2>Time</h2>
-                                               <p>8th, July, 2019 - 12th, July, 2019</p>
-                                               <h2>Participants</h2>
-                                               <p>Applicants are mainly undergraduate or graduate students. High-school students can apply via High-School Program.</p>
-                                               <h2>Language</h2>
-                                               <p>English will be used during the conference as the official language.​</p>
-                                               <h2>Host</h2>
-                                               <p>National Taiwan University, GIS Taiwan 2019 Organizing Committee</p>
-                                               <h2>Location</h2>
-                                               <p>National Taiwan University<br>#1, Sec. 4 Roosevelt Rd.<br>Taipei 10617, Taiwan (R.O.C.)</p>
-                                           </div>
-                                       </div>
-                                       <div class="col-md-6">
-                                           <div class="timeline-container">
-                                               <div id="timeline">
-
-                                                   <div class="timeline-item">
-                                                       <div class="timeline-icon">
-                                                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                                       </div>
-                                                       <div class="timeline-content right mr-auto">
-                                                           <h2>Early Bird Registration</h2>
-                                                           <p>
-                                                           
-                                                           </p>
-                                                           <span class="time-stamp">11th, February, 2019 - 24th, March, 2019</span>
-                                                       </div>
-                                                   </div>
-
-                                                   <div class="timeline-item">
-                                                       <div class="timeline-icon">
-                                                           <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
-                                                       </div>
-                                                       <div class="timeline-content right">
-                                                           <h2>Regular Registration Starts</h2>
-                                                           <p>
-
-                                                           </p>
-                                                           <span class="time-stamp">1st, April, 2019</span>
-                                                       </div>
-                                                   </div>
-
-                                                   
-                                                   <div class="timeline-item">
-                                                       <div class="timeline-icon">
-                                                           <i class="fa fa-check-square-o" aria-hidden="true"></i>
-                                                       </div>
-                                                       <div class="timeline-content right">
-                                                           <h2>End of Regular Registration</h2>
-                                                           <p>
-
-                                                           </p>
-                                                           <span class="time-stamp">12th, May, 2019</span>
-                                                       </div>
-                                                   </div>
-
-                                                   <div class="timeline-item right">
-                                                       <div class="timeline-icon">
-                                                           <i class="fa fa-key" aria-hidden="true"></i>
-                                                       </div>
-                                                       <div class="timeline-content right">
-                                                           <h2>Release of Participation</h2>
-                                                           <p>
-
-                                                           </p>
-                                                           <span class="time-stamp">11th, June, 2019</span>
-                                                       </div>
-                                                   </div>
-                                               </div>
-                                           </div>
-
-                                       </div>
-                                    </div>
-
-                                </div>
-                            </section><!-- #services -->
-
-                            <!--==========================
-                                Call To Action Section
-                                ============================-->
-                                <section id="call-to-action" class="wow fadeIn">
-                                    <div class="container text-center">
-                                        <h3>What are you waiting for? </h3>
-                                        <p>Join the most influential forum around Asia with 300 fellow delegates from 20+ countries.</br>Start to make a change and start from here</p>
-                                        <a class="cta-btn" href="./register.html">Register</a>
-                                    </div>
-                                </section><!-- #call-to-action -->
-
-                                    <!--==========================
-                                        Facts Section
-                                        ============================-->
-                                        <section id="facts"  class="wow fadeIn">
-                                            <div class="container pb-5">
-
-                                                <header class="section-header">
-                                                    <h3>Facts</h3>
-                                                    <p>Gathering over 300 people from more than 20 nations to discuss the issues people are facing currently.</p>
-                                                </header>
-
-                                                <div class="row counters">
-
-                                                    <div class="col-lg-3 col-6 text-center">
-                                                        <span data-toggle="counter-up">300</span>
-                                                        <p>Delegates</p>
-                                                    </div>
-
-                                                    <div class="col-lg-3 col-6 text-center">
-                                                        <span data-toggle="counter-up">20</span>
-                                                        <p>Countries</p>
-                                                    </div>
-
-                                                    <div class="col-lg-3 col-6 text-center">
-                                                        <span data-toggle="counter-up">10</span>
-                                                        <p>Partnerships</p>
-                                                    </div>
-
-                                                    <div class="col-lg-3 col-6 text-center">
-                                                        <span data-toggle="counter-up">40</span>
-                                                        <p>Speakers</p>
-                                                    </div>
-
-                                                </div>
-
-
-                                            </div>
-                                        </section><!-- #facts -->
-                                                        <!--==========================
-                                                            Contact Section
-                                                            ============================-->
-                                                            <section id="contact" class="section-bg wow fadeInUp">
-                                                                <div class="container">
-
-                                                                    <div class="section-header">
-                                                                        <h3>Contact Us</h3>
-                                                                        <p>If you have any question, please let us know as soon as possible! </p>
-                                                                    </div>
-
-                                                                    <div class="row contact-info">
-
-                                                                        <div class="col-md-4">
-                                                                            <div class="contact-address">
-                                                                                <i class="ion-ios-location-outline"></i>
-                                                                                <h3>Address</h3>
-                                                                                <address>#1, Sec. 4 Roosevelt Rd. Taipei 10617<br>Taiwan (R.O.C.)<br></address>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="col-md-4">
-                                                                            <div class="contact-phone">
-                                                                                <i class="ion-ios-telephone-outline"></i>
-                                                                                <h3>Phone Number</h3>
-                                                                                <p><a href="tel:+8862-33662063~66 ext.17">+8862-33662063~66 ext.17</a></p>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="col-md-4">
-                                                                            <div class="contact-email">
-                                                                                <i class="ion-ios-email-outline"></i>
-                                                                                <h3>Email</h3>
-                                                                                <p><a href="mailto:gis-taiwan@gis-taiwan.ntu.edu.tw">gis-taiwan@gis-taiwan.ntu.edu.tw</a></p>
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                    <div class="form">
-                                                                        <div id="sendmessage">Your message has been sent. Thank you!</div>
-                                                                        <div id="errormessage"></div>
-                                                                        <form name="contact-us" method="post" role="form" class="contactForm"><!--remove action=""-->
-                                                                            <div class="form-row">
-                                                                                <div class="form-group col-md-6">
-                                                                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:2" data-msg="Please enter at least 2 chars" />
-                                                                                    <div class="validation"></div>
-                                                                                </div>
-                                                                                <div class="form-group col-md-6">
-                                                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                                                                    <div class="validation"></div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="form-group">
-                                                                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:2" data-msg="Please enter at least 2 chars of subject" />
-                                                                                <div class="validation"></div>
-                                                                            </div>
-                                                                            <div class="form-group">
-                                                                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                                                                <div class="validation"></div>
-                                                                            </div>
-                                                                            <div class="text-center"><button type="submit">Send Message</button></div>
-                                                                        </form>
-                                                                    </div>
-
-                                                                </div>
-                                                            </section><!-- #contact -->
-                </main>
-
-                <!--==========================
-                    Footer
-                    ============================-->
-                    <footer id="footer">
-                        <div class="footer-top">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-6 footer-info">
-                                        <div class="mb-2 mr-2">
-                                            <h4 class="h1">GIS TAIWAN</h4>
-                                        </div>
-                                        <p class="text-justify">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 footer-contact">
-                                        <h4 class="h1">Contact Us</h4>
-                                        <p>
-                                        National Taiwan University<br>
-                                        #1, Sec. 4 Roosevelt Rd.<br>
-                                        Taipei 10617<br>
-                                        Taiwan (R.O.C.)<br>
-                                        <strong>Phone:</strong> +8862-33662063~66 ext.17<br>
-                                        <strong>Email:</strong> gis-taiwan@gis-taiwan.ntu.edu.tw<br>
-                                        </p>
-                                        <div class="social-links">
-                                            <a href="https://www.youtube.com/user/GISTaiwan" class="youtube" target="_blank" ><i class="fa fa-youtube"></i></a>
-                                            <a href="https://www.facebook.com/GISTaiwan/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="https://www.instagram.com/gistaiwan/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                            <div id="map_container"></div>
-                                            <iframe width=100% src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.492786925282!2d121.53756311415944!3d25.017345345114695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a989fe322ea9%3A0x21750404ee1d7f66!2sNational+Taiwan+University!5e0!3m2!1sen!2stw!4v1548094327762" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                    </div>	
+                        <div class="col-md-4">
+                            <div class="contact-address">
+                                <i class="ion-ios-location-outline"></i>
+                                <h3 data-i18n="home.contact_us.address">Address</h3>
+                                <div class="br">
+                                    <p data-i18n="home.contact_us.address1">National Taiwan University</p>
+                                    <p data-i18n="home.contact_us.address2">#1, Sec. 4 Roosevelt Rd.</p>
+                                    <p data-i18n="home.contact_us.address3">Taipei 10617, Taiwan (R.O.C.)</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="container">
-                            <div class="copyright">
-                                &copy; Copyright <strong>GISTAIWAN</strong>. All Rights Reserved
-                            </div>
-                            <div class="credits">
-                                <!--
-                                    All the links in the footer should remain intact.
-                                    You can delete the links only if you purchased the pro version.
-                                    Licensing information: https://bootstrapmade.com/license/
-                                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-                                -->
-                                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        <div class="col-md-4">
+                            <div class="contact-phone">
+                                <i class="ion-ios-telephone-outline"></i>
+                                <h3 data-i18n="home.contact_us.phone">Phone Number</h3>
+                                <p><a href="tel:+8862-33662063~66 ext.17">+8862-33662063~66 ext.17</a></p>
                             </div>
                         </div>
-                    </footer><!-- #footer -->
 
-                    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-                    <!-- Uncomment below i you want to use a preloader -->
-                    <!-- <div id="preloader"></div> -->
+                        <div class="col-md-4">
+                            <div class="contact-email">
+                                <i class="ion-ios-email-outline"></i>
+                                <h3 data-i18n="home.contact_us.email">Email</h3>
+                                <p><a href="mailto:gis-taiwan@gis-taiwan.ntu.edu.tw">gis-taiwan@gis-taiwan.ntu.edu.tw</a></p>
+                            </div>
+                        </div>
 
-                    <!-- JavaScript Libraries -->
-                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeh-1p7qlFoTNtr9ZldL4k3vjKC4Ny8RM" async defer></script>
-                    <script src="lib/jquery/jquery.min.js"></script>
-                    <script src="lib/jquery/jquery-migrate.min.js"></script>
-                    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-                    <script src="lib/easing/easing.min.js"></script>
-                    <script src="lib/superfish/hoverIntent.js"></script>
-                    <script src="lib/superfish/superfish.min.js"></script>
-                    <script src="lib/wow/wow.min.js"></script>
-                    <script src="lib/waypoints/waypoints.min.js"></script>
-                    <script src="lib/counterup/counterup.min.js"></script>
-                    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-                    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-                    <script src="lib/lightbox/js/lightbox.min.js"></script>
-                    <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-                    <!-- Contact Form JavaScript File -->
+                    </div>
+                    <div class="form">
+                        <div id="sendmessage" data-i18n="home.contact_us.send">Your message has been sent. Thank you!</div>
+                        <div id="errormessage"></div>
+                        <form name="contact-us" method="post" role="form" class="contactForm"><!--remove action=""-->
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:2" data-msg="Please enter at least 2 chars" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <div class="validation"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:2" data-msg="Please enter at least 2 chars of subject" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validation"></div>
+                            </div>
+                            <div class="text-center"><button type="submit" data-i18n="home.contact_us.sendbuttom">Send Message</button></div>
+                        </form>
+                    </div>
 
-                    <!-- Template Main Javascript File -->
-                    <script src="js/main.js"></script>
-                    <script src="js/index.js"></script>
-                    <!-- below not work-->
-                    <!--<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-                    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-                    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>-->
-                    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script> <!-- promise-polyfill -->
-                    <script src="contactform/contactform.js"></script>
+                </div>
+            </section><!-- #contact -->
+        </main>
+
+        <!--==========================
+            Footer
+            ============================-->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 footer-info">
+                            <div class="mb-2 mr-2">
+                                <h4 class="h1">GIS TAIWAN</h4>
+                            </div>
+                            <p class="text-justify" data-i18n="footer.des">GIS Taiwan is an international student forum instructed by National Taiwan University and organized by students. Established in 2009, we assemble scholars, entrepreneurs, and student delegates all over the world, integrating academic knowledge into practical application, building a platform across generation and industries, and promoting diverse voices.</p>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-contact">
+                            <h4 class="h1" data-i18n="footer.contact_us">Contact Us</h4>
+                            <div class="br">
+                                <p data-i18n="footer.address1">National Taiwan University</p>
+                                <p data-i18n="footer.address2">#1, Sec. 4 Roosevelt Rd.</p>
+                                <p data-i18n="footer.address3">Taipei 10617, Taiwan (R.O.C.)</p>
+                                <p data-i18n="footer.phone"><strong>Phone:</strong></p>
+                                <p>+8862-33662063~66 ext.17</p>
+                                <p data-i18n="footer.email"><strong>Email:</strong></p>
+                                <p>gis-taiwan@gis-taiwan.ntu.edu.tw<br></p>
+                            </div>
+                            <p>
+                            
+                            <div class="social-links">
+                                <a href="https://www.youtube.com/user/GISTaiwan" class="youtube" target="_blank" ><i class="fa fa-youtube"></i></a>
+                                <a href="https://www.facebook.com/GISTaiwan/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/gistaiwan/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div id="map_container"></div>
+                            <iframe width=100% src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.492786925282!2d121.53756311415944!3d25.017345345114695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a989fe322ea9%3A0x21750404ee1d7f66!2sNational+Taiwan+University!5e0!3m2!1sen!2stw!4v1548094327762" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>	
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong>GISTAIWAN</strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    <!--
+                        All the links in the footer should remain intact.
+                        You can delete the links only if you purchased the pro version.
+                        Licensing information: https://bootstrapmade.com/license/
+                        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+                    -->
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+            </div>
+        </footer><!-- #footer -->
+
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        <!-- Uncomment below i you want to use a preloader -->
+        <!-- <div id="preloader"></div> -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/1.2.1/jquery-i18next.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/15.0.1/i18next.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next-xhr-backend/2.0.0/i18nextXHRBackend.min.js"></script>
+        <script src="./js/translation.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeh-1p7qlFoTNtr9ZldL4k3vjKC4Ny8RM" async defer></script>
+        <script src="lib/jquery/jquery.min.js"></script>
+        <script src="lib/jquery/jquery-migrate.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/superfish/hoverIntent.js"></script>
+        <script src="lib/superfish/superfish.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+        <!-- Contact Form JavaScript File -->
+
+        <!-- Template Main Javascript File -->
+        <script src="js/main.js"></script>
+        <script src="js/index.js"></script>
+        <!-- below not work-->
+        <!--<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+        <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+        <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>-->
+        <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script> <!-- promise-polyfill -->
+        <script src="contactform/contactform.js"></script>
     </body>
 </html>

@@ -9,7 +9,7 @@ html {
 #faq body {
   margin: 0;
   padding: 0;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Hind', sans-serif,"Apple LiGothic Medium", "Microsoft JhengHei";
   background: #fff;
   color: #4d5974;
   display: -webkit-box;
@@ -61,7 +61,7 @@ h3 {
   border-bottom: 1px solid rgba(89,182,171,1); }
 
 .accordion a::after {
-  font-family: 'Ionicons';
+  font-family: 'Ionicons',"Apple LiGothic Medium","Microsoft JhengHei";
   content: '\f218';
   position: absolute;
   float: right;
@@ -78,7 +78,7 @@ h3 {
   text-align: center; }
 
 .accordion a.active::after {
-  font-family: 'Ionicons';
+  font-family: 'Ionicons',"Apple LiGothic Medium","Microsoft JhengHei";
   content: '\f209';
   color: rgba(89,182,171,1);
   border: 1px solid rgba(89,182,171,1); }
@@ -96,7 +96,7 @@ h3 {
 
 .accordion .content p {
   font-size: 1rem;
-  font-weight: 300; }
+  font-weight: 400; }
 
 .accordion .content.active {
   opacity: 1;
