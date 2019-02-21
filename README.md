@@ -1,5 +1,5 @@
-# GIS TAIWANN 2019 website
-
+# GIS TAIWAN 2019 website
+url: http://gis-taiwan.ntu.edu.tw/
 This theme is edited from BizPage, all right reserved to original author.
 
 ### Theme Information
