@@ -64,3 +64,19 @@
 .modal img{
     margin-bottom:2rem;
 }
+/* annual theme pic*/
+#pic{
+    width: 40%;
+    float: right;
+}
+@media (max-width: 500px) {
+    #pic{
+        width: 50%;
+    }
+}
+@media (max-width: 400px) {
+    #pic{
+        width: 100%;
+        margin: 0 0 1rem 0 !important;
+    }
+}
