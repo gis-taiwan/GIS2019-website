@@ -27,6 +27,14 @@ else{ // cookie === "undefined"
     current = 0;
     document.cookie = "language='en'; path=/";
 }
+var agenda = document.getElementById("agenda_pic");
+if(agenda != null){
+    if(current === 0)
+        document.getElementById("agenda_pic").src="./img/agenda-en.png";
+    else
+        document.getElementById("agenda_pic").src="./img/agenda-zh.png";
+}
+
 
 i18next
   .use(i18nextXHRBackend)
@@ -51,5 +59,11 @@ i18next
           i18next.changeLanguage(lang[current], function() {
               $('.whole').localize();
           });
+          if(agenda != null){
+              if(current === 0)
+                  document.getElementById("agenda_pic").src="./img/agenda-en.png";
+              else
+                  document.getElementById("agenda_pic").src="./img/agenda-zh.png";
+          } 
       });
   });
