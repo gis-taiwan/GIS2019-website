@@ -1189,7 +1189,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1060px) {
   #header #logo {
     padding-left: 60px;
   }
@@ -1208,7 +1208,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 940px) {
   .back-to-top {
     bottom: 15px;
   }

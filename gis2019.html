@@ -123,69 +123,236 @@
                             </div>
                         </div>
                         <div id="academic_topics" class="section-header wow fadeInUp">
-                            <h3 data-i18n="gis2019.5">Academic Topics</h3>
+                            <h3 data-i18n="gis2019.5">Academic Structure</h3>
                         </div>
 
-                        
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-12">
-                                    <div class="cd-main my-4">
-                                        <ul class="cd-gallery">
-                                            <li class="cd-item">
-                                                <a href="item-1">
-                                                    <div class="px-4">
-                                                        <h2 data-i18n="gis2019.topic.t1">Destination Green</h2>
-                                                        <p data-i18n="gis2019.topic.t1_des">Sustainability for a better future</p>
-                                                        <b class="mt-3" data-i18n="gis2019.topic.view_more">View More</b>
-                                                    </div>
-                                                </a>
-                                            </li>
+                        <div class="container-fluid structure mt-5">
+                            <canvas id="canvas" class="d-none d-sm-block"></canvas>
+                            <div class="row justify-content-center mb-4 mb-sm-5">
+                                <div class="structure_grid col-sm-3 col-6">
+                                    <div class="layer1 d-flex flex-column" id="l11">
+                                        <p class="text-center">Shifts and Shocks</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="ml-lg-5 pl-lg-5 ml-1 pl-0">Humanities and Social Issues</p>
+                            <div class="row justify-content-center mb-4 mb-sm-5 layer1_outside py-4">
+                                <div class="d-flex structure_grid col-lg-2 offset-lg-0 col-sm-3 col-6 mb-4 mb-sm-0">
+                                    <div class="layer2 d-flex flex-column" id="l21">
+                                        <p class="text-center">The Great Wealth Transfer</p>
+                                        <a href="" data-toggle="modal" data-target="#modal21">
+                                            <div class="view">
+                                            <b class="viewmore" data-i18n="gis2019.topic.view_more">View More</b>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex structure_grid col-lg-2 offset-lg-0 col-sm-3 col-6 mb-4 mb-sm-0 align-self-stretch">
+                                    <div class="layer2 d-flex flex-column" id="l22">
+                                        <p class="text-center">Paradigm Shifts</p>
+                                        <a href="" data-toggle="modal" data-target="#modal22">
+                                            <div class="view">
+                                            <b class="viewmore" data-i18n="gis2019.topic.view_more">View More</b>
+                                    </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex structure_grid col-lg-2 offset-lg-0 col-sm-3 col-6">
+                                    <div class="layer2 d-flex flex-column" id="l23">
+                                        <p class="text-center">The No-Age Society</p>
+                                        <a href="" data-toggle="modal" data-target="#modal23">
+                                            <div class="view">
+                                            <b class="viewmore" data-i18n="gis2019.topic.view_more">View More</b>
+                                    </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex structure_grid col-lg-2 offset-lg-0 col-sm-3 col-6">
+                                    <div class="layer2 d-flex flex-column" id="l24">
+                                        <p class="text-center">Destination Green</p>
+                                        <a href="" data-toggle="modal" data-target="#modal24">
+                                            <div class="view">
+                                            <b class="viewmore" data-i18n="gis2019.topic.view_more">View More</b>
+                                    </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="ml-lg-5 pl-lg-5 ml-1 pl-0">Business and Technology</p>
+                            <div class="row justify-content-center mb-4 mb-sm-5 layer1_outside py-4">
+                                <div class="d-flex structure_grid col-lg-2 offset-lg-0 col-sm-3 col-6 mb-4 mb-sm-0">
+                                    <div class="layer3 d-flex flex-column" id="l31">
+                                        <p class="text-center">FinTech</p>
+                                        <a href="" data-toggle="modal" data-target="#modal31">
+                                            <div class="view">
+                                            <b class="viewmore" data-i18n="gis2019.topic.view_more">View More</b>
+                                    </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex structure_grid col-lg-2 offset-lg-0 col-sm-3 col-6 mb-4 mb-sm-0">
+                                    <div class="layer3 d-flex flex-column" id="l32">
+                                        <p class="text-center">Future Education</p>
+                                        <a href="" data-toggle="modal" data-target="#modal32">
+                                            <div class="view">
+                                            <b class="viewmore" data-i18n="gis2019.topic.view_more">View More</b>
+                                    </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex structure_grid col-lg-2 offset-lg-0 col-sm-3 col-6">
+                                    <div class="layer3 d-flex flex-column" id="l33">
+                                        <p class="text-center">Smart Healthcare</p>
+                                        <a href="" data-toggle="modal" data-target="#modal33">
+                                            <div class="view">
+                                            <b class="viewmore" data-i18n="gis2019.topic.view_more">View More</b>
+                                    </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="d-flex structure_grid col-lg-2 offset-lg-0 col-sm-3 col-6">
+                                    <div class="layer3 d-flex flex-column" id="l34">
+                                        <p class="text-center">Eco-Echo</p>
+                                        <a href="" data-toggle="modal" data-target="#modal34">
+                                            <div class="view">
+                                            <b class="viewmore" data-i18n="gis2019.topic.view_more">View More</b>
+                                    </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
 
-                                            <li class="cd-item">
-                                                <a href="item-2">
-                                                    <div class="px-4">
-                                                        <h2 data-i18n="gis2019.topic.t2">The No-Age Society</h2>
-                                                        <p data-i18n="gis2019.topic.t2_des">Welcome to the new older generation</p>
-                                                        <b class="mt-3" data-i18n="gis2019.topic.view_more">View More</b>
-                                                    </div>
-                                                </a>
-                                            </li>
-
-                                            <li class="cd-item">
-                                                <a class="dark-text" href="item-3">
-                                                    <div class="px-4">
-                                                        <h2 data-i18n="gis2019.topic.t3">The Great Wealth Transfer</h2>
-                                                        <p data-i18n="gis2019.topic.t3_des">Be ready for the next big opportunity</p>
-                                                        <b class="mt-3" data-i18n="gis2019.topic.view_more">View More</b>
-                                                    </div>
-                                                </a>
-                                            </li>
-
-                                            <li class="cd-item">
-                                                <a href="item-4">
-                                                    <div class="px-4">
-                                                        <h2 data-i18n="gis2019.topic.t4">Paradigm Shift</h2>
-                                                        <p data-i18n="gis2019.topic.t4_des">Embrace uncertainty and start to lead</p>
-                                                        <b class="mt-3" data-i18n="gis2019.topic.view_more">View More</b>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul> <!-- .cd-gallery -->
-                                    </div> <!-- .cd-main -->
-
-                                    <div class="cd-folding-panel">
-                                        <div class="fold-left"></div> <!-- this is the left fold -->
-                                        <div class="fold-right"></div> <!-- this is the right fold -->
-                                        <div class="cd-fold-content">
-                                            <!-- content will be loaded using javascript -->
-                                        </div>
-                                        <a class="cd-close" href="#0"></a>
-                                    </div> <!-- .cd-folding-panel -->
-
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal24" tabindex="-1" role="dialog" aria-labelledby="Destination Green Description" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Destination Green</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/modal/modal24.png" width="100%"></img>
+                                        <p>The impact of climate change becomes increasingly fierce as the average temperature is rising continuously. There are more and more changes in the climate and the environment which affect human, creatures and the whole ecosystem. As the future generation to come, it is an issue of our time to coexist with the environment while the past destruction had been done. This year, GIS Taiwan will launch the discussion of the interaction between man and land. We will explore the connection between environment and technology as well as the opportunities and challenges we will face. We hope every delegate can unleash the strength of sustainability and construct sustainable environment together.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="modal fade" id="modal23" tabindex="-1" role="dialog" aria-labelledby="The No-Age Society Description" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">The No-Age Society</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/modal/modal23.png" width="100%"></img>
+                                        <p>As we all know, the demographic structure is determined by both birth rate as well as death rate. The decline of both rates nowadays gives rise to the occurrence of aging society and the tendency to have fewer children, which lead to great impacts on the society, economy and moral standards. This year, GIS Taiwan will place emphasis on "smart health" and "long-term care" with an eye to exploring the revolutionary innovation brought by the combination of technology and medicine as well as its future potential. What kinds of technological applications or social mechanism we can expect to assist us when we age? GIS Taiwan hopes delegates could come up with brand new solutions and possibilities for the problems brought by the aging society and therefore influence the world with their enthusiasm, empathy, kindness and wisdom.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal21" tabindex="-1" role="dialog" aria-labelledby="The Great Wealth Transfer Description" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">The Great Wealth Transfer</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/modal/modal21.jpg" width="100%"></img>
+                                        <p>Economy has an inseparable connection to our life. This year, we will bound from “The Great Wealth Transfer” to discuss the role for our generation and the changes we can make in the era when baby boomers start to fade. Facing their wealth, what the millennials want to do is changing the world instead of merely satisfying their material needs. With new techniques and technology, we will exert our power to break the rigid system and the stale regulations and to define the novel era on our own. GIS Taiwan hopes that every delegate can face challenges and opportunities under the new economy trend with a more confident attitude and further change the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal22" tabindex="-1" role="dialog" aria-labelledby="Paradigm Shift Description" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Paradigm Shift</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/modal/modal22.png" width="100%"></img>
+                                        <p>The world is surrounded by the Internet in 21st century which is a faced with an unprecedented change. The Y and Z generations are labelled as “unrealistic” and “aimless”, but few people have taught them how to face the changing world. This year, GIS Taiwan will focus on the “educational revolution” and “social innovation”. Digging into the fundamentals, delegates will solve problems and build up solid sustainable development foundations. GIS Taiwan hopes delegates can realise the transformation of thinking in the new era, imagine more about future education, and ignite the eagerness to change.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal31" tabindex="-1" role="dialog" aria-labelledby="Fintech Description" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Fintech</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/modal/modal31.jpg" width="100%"></img>
+                                        <p>Fintech enhances efficiency and reduces the cost of financial industries, benefitting modern people’s use of financial services; such as transactions, loans, and investments. While traditional sales of financial industries are vanishing, new demands has gradually expand the scope of Fintech. As millennials, we are now facing a huge change on consumer behaviors and the instruments use for transactions. With mentors' experiences and views on the industry, GIS Taiwan hopes to inspire delegates in bringing their ideas into reality.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal34" tabindex="-1" role="dialog" aria-labelledby="Eco-Echo Description" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Eco-Echo</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/modal/modal34.png" width="100%"></img>
+                                        <p>The past linear thinking has made human beings accustomed to immediate disposal, causing excessive consumption of natural resources, non-treatable wastes and irreversible damages. By modifying sources of the production chain, and considering the possibility of secondary valuesence, GIS Taiwan hopes delegates devise environment-friendly actions that can reduce pollution and reach sustainability.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal33" tabindex="-1" role="dialog" aria-labelledby="Smart Healthcare Description" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Smart Healthcare</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/modal/modal33.png" width="100%"></img>
+                                        <p>By virtue of public health and medical technology in developed countries, life expectancy has increased. However, it doesn’t guarantee better life quality. Diseases and social problems derived from aging, not only deprive the living autonomy of elders, but also intensify the burden on young adults. To resolve these issues, many companies and governments’ main goal is to adopt technology and long-term care systems. GIS Taiwan wish to see delegates brainstorm ways of using technology to effectively distribute resources and enhance efficiency, creating more commercial opportunities and value of health.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="modal32" tabindex="-1" role="dialog" aria-labelledby="Future Education Description" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Future Education</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/modal/modal32.png" width="100%"></img>
+                                        <p>People are constantly learning. Only education can improve the ability of solving problems and promote paradigm shift. By technology and innovative thinking, future education won’t be limited in classrooms or college systems. It will allow individuals to fully utilize their values under this everchanging generation. GIS Taiwan wishes delegates practicalize their ideals of modes or applications for future education through the guidance of mentors.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </section>
                 </main>
 
