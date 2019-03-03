@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
         canvas.width = $(".structure").width();
         canvas.height = $(".structure").height();
         //console.log(canvas.width,canvas.width);
-        ctx.lineWidth = 1;
+        ctx.lineWidth = 2;
 
         var $canvas = $("#canvas");
         var canvasOffset = $canvas.offset();
@@ -71,6 +71,7 @@ jQuery(document).ready(function($) {
             //console.log(pos1.left + eFrom.width() / 2 - offsetX, pos1.top + eFrom.height() - offsetY);
             ctx.moveTo(pos1.left + eFrom.innerWidth() / 2  - offsetX, pos1.top + eFrom.innerHeight() - offsetY);
             ctx.lineTo(pos2.left + eTo.innerWidth() / 2  - offsetX, pos2.top - offsetY);
+            ctx.strokeStyle = "rgba(88,88,88,0.3)";
             ctx.stroke();
 
         }
