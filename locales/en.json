@@ -15,6 +15,7 @@
         "register": "Register",
         "registration": "Registration",
         "high-school-program": "High School Program",
+        "student_ambassador": "Student Ambassador",
         "basis-of-selection": "Basis of Selection",
         "financial-aid": "Financial Aid",
         "field-trip": "Field Trip",
@@ -149,7 +150,7 @@
             "29":"To apply, you need to receive a letter of recommendation from a student ambassador.",
             "30":"Please attach the letter of recommendation to the Essay Questions Upload section in the Application Form.",
             "31":"Sign Up",
-            "32":"Our partnership this year are: ",
+            "32":"Our student ambassador this year are: ",
             "32_1":"Student Ambassador",
             "table":{
                 "1-1": "Local Application",
@@ -288,13 +289,13 @@
                 "5": "Lu, Li",
                 "6": "Lien, Bo-Yue",
                 "7": "Ho, Yu-Chun",
-                "8": "Chien, Yu Shan",
+                "8": "Chien, Yu-Shan",
                 "9": "Chen, Hsin-Yi",
                 "10": "Chen, Yu-Wei ",
                 "11": "Chao, Yi-Chien",
                 "12": "Chen, Jing",
                 "13": "Lin, Yu-Tung",
-                "14": "??"
+                "14": "Chang, Yiting"
             },
             "title": {
                 "1": "Secretary of Information System",
@@ -573,7 +574,6 @@
                 "7": "Officer",
                 "8": "Officer",
                 "9": "Officer"
-
             },
             "de": {
                 "1": "Lu,Siang-Ying",
@@ -676,8 +676,41 @@
         "title": "Partnership | GIS Taiwan",
         "1":"Partnership"
     },
-    "student_a": {
+    "s_a": {
         "title": "Student Ambassadors | GIS Taiwan",
-        "1": "Student Ambassadors"
+        "1": "Student Ambassadors",
+        "name": {
+            "1": "Andy Hsu",
+            "2": "Ho, Meng Hsuan",
+            "3": "Wang, Chuan-Yang",
+            "4": "Chiu, Ru-Yun",
+            "5": "Shi, Yueh-Erh",
+            "6": "Almondreaux Jason Williams",
+            "7": "Myeongseok Gwon",
+            "8": "Hsu, Tzu-Han ",
+            "9": "Liu, Ching-Hsuan "
+        },
+        "school": {
+            "1": "University of Southern California",
+            "2": "National Chengchi University",
+            "3": "Shin Shing General High School",
+            "4": "Taipei Wego Private Senior High School",
+            "5": "National Taiwan University",
+            "6": "University of the Free State",
+            "7": "KAIST",
+            "8": "National Taiwan University of Science and Technology",
+            "9": "National Taiwan University"
+        },
+        "des": {
+            "1": "You get to meet and work with amazing people with diverse backgrounds and perspectives, get INSPIRED in GIS!",
+            "2": "Here we work with inspiring teammates and honorable lecturers who come from different countries and have various backgrounds. Hands down, GIS TW.",
+            "3": "Participating in GIS Taiwan, you'll grow, be inspired and you'll be a profounder person in the end.",
+            "4": "In GIS Taiwan, you will get more than you expected.",
+            "5": "GIS Taiwan, for me, is a window to opportunities beyond.",
+            "6": "A platform and opportunity to grow in many aspects of your life.",
+            "7": "The only and best opportunity for academic and cultural experience.",
+            "8": "Life is connecting the dots. GIS Taiwan will definitely be one of the best parts in your life.",
+            "9": "For me, GIS Taiwan is a chance to meet great people all over the world and know new things that I have never learned. Here in GIS, I promise you will receive more than what you can expect."
+        }
     }
 } 

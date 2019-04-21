@@ -15,7 +15,12 @@ $(function() {
             }, 800);
         } else {
             $(".mc-active").removeClass("mc-active");
-
+            window.setTimeout(function() {
+                $(".fa-arrow-left")
+                    .removeClass("fa-arrow-left")
+                    .removeClass("fa-spin-fast")
+                    .addClass("fa-bars");
+            }, 800);
             card.addClass("mc-active");
             setTimeout(function(){
                 var active = $(".mc-active");

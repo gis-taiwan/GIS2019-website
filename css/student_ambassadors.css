@@ -47,7 +47,7 @@
   transition: all 0.3s;
 }
 .material-card h2 span {
-  display: block;
+  display: inline;
 }
 .material-card h2 strong {
   font-weight: 400;

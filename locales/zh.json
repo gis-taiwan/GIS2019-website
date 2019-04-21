@@ -15,6 +15,7 @@
         "register": "報名",
         "registration": "報名資訊",
         "high-school-program": "高中生計畫",
+        "student_ambassador": "學生大使",
         "basis-of-selection": "審查方式",
         "financial-aid": "補助方案",
         "field-trip": "會後旅遊",
@@ -294,7 +295,7 @@
                 "11": "趙怡茜",
                 "12": "陳竫",
                 "13": "林語彤",
-                "14": "??"
+                "14": "張翊庭"
             },
             "title": {
                 "1": "資訊秘書",
@@ -562,7 +563,6 @@
                 "7": "高尚樵",
                 "8": "楊淑聿",
                 "9": "江可晴"
-
             },
             "title": {
                 "1": "部 員",
@@ -574,7 +574,6 @@
                 "7": "部 員",
                 "8": "部 員",
                 "9": "部 員"
-
             },
             "de": {
                 "1": "戲劇學系",
@@ -677,8 +676,41 @@
         "title": "海外夥伴 | GIS Taiwan",
         "1":"海外夥伴"
     },
-    "student_a": {
+    "s_a": {
         "title": "學生大使 | GIS Taiwan",
-        "1": "學生大使"
+        "1": "學生大使",
+        "name": {
+            "1": "徐仲毅",
+            "2": "何孟璇",
+            "3": "王傳揚",
+            "4": "邱如韻",
+            "5": "施玥而",
+            "6": "Almondreaux Jason Williams",
+            "7": "Myeongseok Gwon",
+            "8": "徐子涵",
+            "9": "劉青璿"
+        },
+        "school": {
+            "1": "美國南加州大學",
+            "2": "國立政治大學",
+            "3": "桃園市私立新興高中",
+            "4": "台北市私立薇閣高級中學",
+            "5": "國立臺灣大學",
+            "6": "University of the Free State",
+            "7": "KAIST",
+            "8": "國立臺灣科技大學",
+            "9": "國立臺灣大學"
+        },
+        "des": {
+            "1": "在集思你能夠有機會和跟你有迥然不同觀點的人合作與認識，準備好在集思大開眼界吧！",
+            "2": "在這裡你可以和激勵人心的隊友們合作，還可以跟榮譽講者們互動，而他們都是來自不同的國家與背景。超推GIS Taiwan！",
+            "3": "參加 GIS TW，你會成長，受到啟發，你最終會成為一個更有內涵的人。",
+            "4": "在 GIS Taiwan，你的收穫會比你想像的還要多！",
+            "5": "集思對我來說的意義是有了接觸外面世界的機會。",
+            "6": "A platform and opportunity to grow in many aspects of your life.",
+            "7": "The only and best opportunity for academic and cultural experience.",
+            "8": "Life is connecting the dots. GIS Taiwan will definitely be one of the best parts in your life.",
+            "9": "對我來說，GIS Taiwan是個認識來自世界各地的好朋友，以及學到平常罕見的新知識的好機會。在GIS，你得到的會遠比你能想的還多。"
+        }
     }
 }
