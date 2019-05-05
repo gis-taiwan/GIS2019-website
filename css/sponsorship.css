@@ -1,0 +1,19 @@
+/*
+body{
+    background-color: red;
+}
+*/
+.sponsorship img{
+    width:100%;
+    padding-top: 3rem; /* py-4 */
+    padding-bottom: 3rem;
+
+
+}
+.sponsorship .wow{
+    align-self: center;
+    text-align: center;
+}
+.gray{
+    background-color: #f7f6f6;
+}

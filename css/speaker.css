@@ -1,0 +1,65 @@
+.person{
+    position: relative;
+}
+.spin {
+  box-sizing: initial;
+  width: 80%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(89, 182, 171, 1);
+  margin-left: 10%;
+  padding-top: 80%; /* something magic!*/
+  border-radius: 100%;
+  background-size: cover;
+  position: relative;
+}
+.spin::before,
+.spin::after {
+  box-sizing: initial;
+  content: "";
+  position: absolute;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.spin::before,
+.spin::after {
+  top: -5px;
+  left: -5px;
+}
+
+.spin::before {
+  border: 5px solid transparent;
+}
+.spin:hover::before {
+  border-top-color: #e5872c;
+  border-right-color: #e5872c;
+  border-bottom-color: #e5872c;
+  transition: border-top-color 0.15s linear,
+    border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+}
+.spin::after {
+  border: 5px solid transparent;
+}
+.spin:hover::after {
+  border-top: 5px solid #e5872c;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  transition: border-left-width 0s linear 0.35s,
+    -webkit-transform 0.4s linear 0s;
+  transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s;
+  transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s,
+    -webkit-transform 0.4s linear 0s;
+}
+
+.circle {
+  border-radius: 100%;
+  box-shadow: none;
+}
+.circle::before,
+.circle::after {
+  border-radius: 100%;
+}
+
