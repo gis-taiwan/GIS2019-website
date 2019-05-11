@@ -712,5 +712,18 @@
             "8": "Life is connecting the dots. GIS Taiwan will definitely be one of the best parts in your life.",
             "9": "For me, GIS Taiwan is a chance to meet great people all over the world and know new things that I have never learned. Here in GIS, I promise you will receive more than what you can expect."
         }
+    },
+    "sponsorship": {
+        "1": "SPONSORSHIP",
+        "2": "Advisor",
+        "3": "Co-organizer",
+        "4": "Platinum",
+        "5": " Sponsor",
+        "6": "Gold",
+        "7": " Sponsor",
+        "8": "Silver",
+        "9": " Sponsor",
+        "10": "Supporting Sponsor",
+        "11": "Event Sponsor"
     }
 } 

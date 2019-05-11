@@ -712,5 +712,18 @@
             "8": "Life is connecting the dots. GIS Taiwan will definitely be one of the best parts in your life.",
             "9": "對我來說，GIS Taiwan是個認識來自世界各地的好朋友，以及學到平常罕見的新知識的好機會。在GIS，你得到的會遠比你能想的還多。"
         }
+    },
+    "sponsorship": {
+        "1": "贊助企業",
+        "2": "諮詢單位",
+        "3": "協辦單位",
+        "4": "白金",
+        "5": "贊助",
+        "6": "黃金",
+        "7": "贊助",
+        "8": "銀級",
+        "9": "贊助",
+        "10": "合作夥伴",
+        "11": "協力夥伴"
     }
 }
