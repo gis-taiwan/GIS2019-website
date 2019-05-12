@@ -2,6 +2,10 @@
     position: relative;
     margin-bottom: 2rem;
 }
+.person span{
+    font-size: 1.1rem;
+}
+
 .spin {
   box-sizing: initial;
   width: 80%;
