@@ -1,5 +1,6 @@
 .person{
     position: relative;
+    margin-bottom: 2rem;
 }
 .spin {
   box-sizing: initial;
