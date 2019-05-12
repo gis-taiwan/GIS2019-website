@@ -73,10 +73,10 @@
             "timeline": {
                 "ebird": "Early Bird Registration",
                 "ebird_date": "11th, February, 2019 - 24th, March, 2019",
-                "regular_s": "Regular Registration Starts",
-                "regular_s_date": "1st, April, 2019",
-                "regular_e": "End of Regular Registration",
-                "regular_e_date": "12th, May, 2019",
+                "regular_s": "Regular Registration",
+                "regular_s_date": "1st, April, 2019 - 12th, May, 2019",
+                "regular_e": "Late Registration",
+                "regular_e_date": "13th, May, 2019 - 31th, May, 2019",
                 "release": "Release of Participation",
                 "release_date": "11th, June, 2019"
             }
@@ -124,6 +124,8 @@
             "4":"11th, February, 2019 to 24th, March, 2019.",
             "5":"Regular:",
             "6":"1st, April, 2019 to 12th, May, 2019",
+            "5_1": "Late Registration:",
+            "6_1": "13st, May, 2019 to 31th, May, 2019",
             "7":"Conference Fee",
             "8":"Early Bird:",
             "9":"4000 NTD",
