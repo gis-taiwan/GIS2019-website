@@ -844,5 +844,17 @@
             "52": "Professor in NTU’s Center for General Education and Chief Advisor to the Provisional Office of NTU's International College",
             "53": ""
         }
+    },
+    "advisory": {
+        "title": "Advisory Panel | GIS Taiwan",
+        "1": "Advisory Panel",
+        "name": {
+            "1": "Chung-Ming Kuan",
+            "2": "Hsiao-Wei Yuan"
+        },
+        "title": {
+            "1": "President, National Taiwan University",
+            "2": "Professor of the Department of Forestry and Resource Conservation, National Taiwan University"
+        }
     }
 } 
